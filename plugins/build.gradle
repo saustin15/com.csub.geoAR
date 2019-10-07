@@ -1,0 +1,80 @@
+apply plugin: 'com.android.library'
+
+/* To rebuild the plugins this has to be set to true. Otherwise the prebuilt plugins library will be used.
+ * This is only for the purpose of providing the Example App without the requirement of installing the Android NDK.
+ */
+def rebuildPlugins = false
+
+/* Defines the temporary path for the plugins shared library.*/
+def wikitudeTmpPath = "${buildDir}/wikitude/libs"
+
+/* Creates a new configuration to extract the shared library from the Wikitude SDK for the Plugins to link against. */
+configurations { libraryExtraction }
+
+android {
+    compileSdkVersion commonCompileSdkVersion
+
+    defaultConfig {
+        minSdkVersion commonMinSdkVersion
+        targetSdkVersion commonTargetSdkVersion
+
+        externalNativeBuild {
+            cmake {
+                arguments "-DANDROID_TOOLCHAIN=clang",
+                        "-DANDROID_STL=c++_shared",
+                        /* Provides the path to the extracted libarchitect.so to CMake */
+                        "-DWIKITUDE_NATIVE_PATH=${wikitudeTmpPath}/jni",
+                        /* Provides the path to that the built plugins library should be copied to to CMake */
+                        "-DPLUGIN_OUTPUT_PATH=${project.rootDir}/plugins/src/main/jniLibs"
+
+                cppFlags "-std=c++14 -Wno-inconsistent-missing-override"
+                abiFilters 'armeabi-v7a', 'arm64-v8a'
+            }
+        }
+    }
+
+    sourceSets {
+        main {
+            jniLibs.srcDirs = ['src/main/cpp/lib']
+            /* If the plugins are not rebuilt use the pre-built library that is located in the jniLibs folder. */
+            if (!rebuildPlugins) {
+                jniLibs.srcDirs += ['src/main/jniLibs']
+            }
+        }
+    }
+
+    if (rebuildPlugins) {
+        externalNativeBuild {
+            cmake {
+                path "src/main/cpp/CMakeLists.txt"
+            }
+        }
+    }
+}
+
+dependencies {
+    implementation project(path: ':wikitude-sdk')
+
+    /* Extract the wikitude sdk shared library from the aar. */
+    libraryExtraction project(':wikitude-sdk')
+}
+
+/* Task to extract the nativesdk shared library from the aar. */
+task extractNativeLibraries() {
+    doFirst {
+        configurations.libraryExtraction.files.each { file ->
+            copy {
+                from zipTree(file)
+                into wikitudeTmpPath
+                include "jni/**/*"
+            }
+        }
+    }
+}
+tasks.whenTaskAdded {
+    task ->
+        if (task.name.contains("external") && !task.name.contains("Clean")) {
+            /* The externalNativeBuild depends on the extraction task to be able to link properly. */
+            task.dependsOn(extractNativeLibraries)
+        }
+}

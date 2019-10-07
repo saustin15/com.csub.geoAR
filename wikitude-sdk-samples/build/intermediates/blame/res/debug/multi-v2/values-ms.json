@@ -1,0 +1,60 @@
+{
+    "logs": [
+        {
+            "outputFile": "C:\\Users\\aog61\\Desktop\\SDKExamples\\wikitude-sdk-samples\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-ms\\values-ms.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\aog61\\.gradle\\caches\\transforms-2\\files-2.1\\12959e3fec61bc857b01d21eb362523e\\support-compat-27.1.0\\res\\values-ms\\values-ms.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "25",
+                        "startColumns": "4",
+                        "startOffsets": "2319",
+                        "endColumns": "100",
+                        "endOffsets": "2415"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\aog61\\.gradle\\caches\\transforms-2\\files-2.1\\1ee1a41a4673e7b3823d88aff9031ff6\\appcompat-v7-27.1.0\\res\\values-ms\\values-ms.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "105,216,321,429,516,620,731,809,888,968,1080,1189,1286,1395,1498,1605,1764,1865",
+                        "endColumns": "110,104,107,86,103,110,77,78,79,111,108,96,108,102,106,158,100,79",
+                        "endOffsets": "211,316,424,511,615,726,804,883,963,1075,1184,1281,1390,1493,1600,1759,1860,1940"
+                    },
+                    "to": {
+                        "startLines": "7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "479,590,695,803,890,994,1105,1183,1262,1342,1454,1563,1660,1769,1872,1979,2138,2239",
+                        "endColumns": "110,104,107,86,103,110,77,78,79,111,108,96,108,102,106,158,100,79",
+                        "endOffsets": "585,690,798,885,989,1100,1178,1257,1337,1449,1558,1655,1764,1867,1974,2133,2234,2314"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\aog61\\.gradle\\caches\\transforms-2\\files-2.1\\a142fb1d50ccf196efecc0487528badb\\core-1.1.0\\res\\values-ms\\values.xml",
+                    "from": {
+                        "startLines": "4,5,6,7,8",
+                        "startColumns": "0,0,0,0,0",
+                        "startOffsets": "190,236,287,385,483",
+                        "endColumns": "45,50,97,97,60",
+                        "endOffsets": "235,286,384,482,543"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "105,155,210,312,414",
+                        "endColumns": "49,54,101,101,64",
+                        "endOffsets": "150,205,307,409,474"
+                    }
+                }
+            ]
+        }
+    ]
+}

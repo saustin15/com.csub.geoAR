@@ -1,0 +1,195 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.csub.geoAR"
+4    android:versionCode="7210"
+5    android:versionName="8.7.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="19"
+8-->C:\Users\aog61\Desktop\SDKExamples\wikitude-sdk-samples\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="27" />
+9-->C:\Users\aog61\Desktop\SDKExamples\wikitude-sdk-samples\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.CAMERA" />
+11-->C:\Users\aog61\Desktop\SDKExamples\wikitude-sdk-samples\src\main\AndroidManifest.xml:5:5-65
+11-->C:\Users\aog61\Desktop\SDKExamples\wikitude-sdk-samples\src\main\AndroidManifest.xml:5:22-62
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->C:\Users\aog61\Desktop\SDKExamples\wikitude-sdk-samples\src\main\AndroidManifest.xml:6:5-67
+12-->C:\Users\aog61\Desktop\SDKExamples\wikitude-sdk-samples\src\main\AndroidManifest.xml:6:22-64
+13    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+13-->C:\Users\aog61\Desktop\SDKExamples\wikitude-sdk-samples\src\main\AndroidManifest.xml:7:5-81
+13-->C:\Users\aog61\Desktop\SDKExamples\wikitude-sdk-samples\src\main\AndroidManifest.xml:7:22-78
+14    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+14-->C:\Users\aog61\Desktop\SDKExamples\wikitude-sdk-samples\src\main\AndroidManifest.xml:8:5-79
+14-->C:\Users\aog61\Desktop\SDKExamples\wikitude-sdk-samples\src\main\AndroidManifest.xml:8:22-76
+15    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+15-->C:\Users\aog61\Desktop\SDKExamples\wikitude-sdk-samples\src\main\AndroidManifest.xml:9:5-79
+15-->C:\Users\aog61\Desktop\SDKExamples\wikitude-sdk-samples\src\main\AndroidManifest.xml:9:22-76
+16    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+16-->C:\Users\aog61\Desktop\SDKExamples\wikitude-sdk-samples\src\main\AndroidManifest.xml:10:5-76
+16-->C:\Users\aog61\Desktop\SDKExamples\wikitude-sdk-samples\src\main\AndroidManifest.xml:10:22-73
+17    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+17-->C:\Users\aog61\Desktop\SDKExamples\wikitude-sdk-samples\src\main\AndroidManifest.xml:11:5-81
+17-->C:\Users\aog61\Desktop\SDKExamples\wikitude-sdk-samples\src\main\AndroidManifest.xml:11:22-78
+18
+19    <uses-feature
+19-->C:\Users\aog61\Desktop\SDKExamples\wikitude-sdk-samples\src\main\AndroidManifest.xml:13:5-15:35
+20        android:glEsVersion="0x00020000"
+20-->C:\Users\aog61\Desktop\SDKExamples\wikitude-sdk-samples\src\main\AndroidManifest.xml:14:9-41
+21        android:required="true" />
+21-->C:\Users\aog61\Desktop\SDKExamples\wikitude-sdk-samples\src\main\AndroidManifest.xml:15:9-32
+22    <uses-feature
+22-->C:\Users\aog61\Desktop\SDKExamples\wikitude-sdk-samples\src\main\AndroidManifest.xml:16:5-18:35
+23        android:name="android.hardware.camera"
+23-->C:\Users\aog61\Desktop\SDKExamples\wikitude-sdk-samples\src\main\AndroidManifest.xml:17:9-47
+24        android:required="true" />
+24-->C:\Users\aog61\Desktop\SDKExamples\wikitude-sdk-samples\src\main\AndroidManifest.xml:18:9-32
+25    <uses-feature
+25-->C:\Users\aog61\Desktop\SDKExamples\wikitude-sdk-samples\src\main\AndroidManifest.xml:19:5-21:35
+26        android:name="android.hardware.location"
+26-->C:\Users\aog61\Desktop\SDKExamples\wikitude-sdk-samples\src\main\AndroidManifest.xml:20:9-49
+27        android:required="true" />
+27-->C:\Users\aog61\Desktop\SDKExamples\wikitude-sdk-samples\src\main\AndroidManifest.xml:21:9-32
+28    <uses-feature
+28-->C:\Users\aog61\Desktop\SDKExamples\wikitude-sdk-samples\src\main\AndroidManifest.xml:22:5-24:35
+29        android:name="android.hardware.sensor.accelerometer"
+29-->C:\Users\aog61\Desktop\SDKExamples\wikitude-sdk-samples\src\main\AndroidManifest.xml:23:9-61
+30        android:required="true" />
+30-->C:\Users\aog61\Desktop\SDKExamples\wikitude-sdk-samples\src\main\AndroidManifest.xml:24:9-32
+31    <uses-feature
+31-->C:\Users\aog61\Desktop\SDKExamples\wikitude-sdk-samples\src\main\AndroidManifest.xml:25:5-27:35
+32        android:name="android.hardware.sensor.compass"
+32-->C:\Users\aog61\Desktop\SDKExamples\wikitude-sdk-samples\src\main\AndroidManifest.xml:26:9-55
+33        android:required="true" />
+33-->C:\Users\aog61\Desktop\SDKExamples\wikitude-sdk-samples\src\main\AndroidManifest.xml:27:9-32
+34    <uses-feature
+34-->C:\Users\aog61\Desktop\SDKExamples\wikitude-sdk-samples\src\main\AndroidManifest.xml:28:5-30:36
+35        android:name="android.hardware.sensor.gyroscope"
+35-->C:\Users\aog61\Desktop\SDKExamples\wikitude-sdk-samples\src\main\AndroidManifest.xml:29:9-57
+36        android:required="false" />
+36-->C:\Users\aog61\Desktop\SDKExamples\wikitude-sdk-samples\src\main\AndroidManifest.xml:30:9-33
+37
+38    <application
+38-->C:\Users\aog61\Desktop\SDKExamples\wikitude-sdk-samples\src\main\AndroidManifest.xml:32:5-74:19
+39        android:debuggable="true"
+40        android:icon="@mipmap/ic_launcher"
+40-->C:\Users\aog61\Desktop\SDKExamples\wikitude-sdk-samples\src\main\AndroidManifest.xml:33:9-43
+41        android:label="@string/app_name"
+41-->C:\Users\aog61\Desktop\SDKExamples\wikitude-sdk-samples\src\main\AndroidManifest.xml:34:9-41
+42        android:resizeableActivity="false"
+42-->C:\Users\aog61\Desktop\SDKExamples\wikitude-sdk-samples\src\main\AndroidManifest.xml:36:9-43
+43        android:testOnly="true"
+44        android:theme="@style/AppTheme" >
+44-->C:\Users\aog61\Desktop\SDKExamples\wikitude-sdk-samples\src\main\AndroidManifest.xml:35:9-40
+45        <activity android:name="com.csub.geoAR.MainActivity" >
+45-->C:\Users\aog61\Desktop\SDKExamples\wikitude-sdk-samples\src\main\AndroidManifest.xml:37:9-43:20
+45-->C:\Users\aog61\Desktop\SDKExamples\wikitude-sdk-samples\src\main\AndroidManifest.xml:37:19-47
+46            <intent-filter>
+46-->C:\Users\aog61\Desktop\SDKExamples\wikitude-sdk-samples\src\main\AndroidManifest.xml:38:13-42:29
+47                <action android:name="android.intent.action.MAIN" />
+47-->C:\Users\aog61\Desktop\SDKExamples\wikitude-sdk-samples\src\main\AndroidManifest.xml:39:17-69
+47-->C:\Users\aog61\Desktop\SDKExamples\wikitude-sdk-samples\src\main\AndroidManifest.xml:39:25-66
+48
+49                <category android:name="android.intent.category.LAUNCHER" />
+49-->C:\Users\aog61\Desktop\SDKExamples\wikitude-sdk-samples\src\main\AndroidManifest.xml:41:17-77
+49-->C:\Users\aog61\Desktop\SDKExamples\wikitude-sdk-samples\src\main\AndroidManifest.xml:41:27-74
+50            </intent-filter>
+51        </activity>
+52        <activity
+52-->C:\Users\aog61\Desktop\SDKExamples\wikitude-sdk-samples\src\main\AndroidManifest.xml:44:9-46:77
+53            android:name="com.csub.geoAR.SimpleArActivity"
+53-->C:\Users\aog61\Desktop\SDKExamples\wikitude-sdk-samples\src\main\AndroidManifest.xml:45:13-45
+54            android:configChanges="orientation|keyboardHidden|screenSize" />
+54-->C:\Users\aog61\Desktop\SDKExamples\wikitude-sdk-samples\src\main\AndroidManifest.xml:46:13-74
+55        <activity
+55-->C:\Users\aog61\Desktop\SDKExamples\wikitude-sdk-samples\src\main\AndroidManifest.xml:47:9-49:77
+56            android:name="com.csub.geoAR.SimpleGeoArActivity"
+56-->C:\Users\aog61\Desktop\SDKExamples\wikitude-sdk-samples\src\main\AndroidManifest.xml:48:13-48
+57            android:configChanges="orientation|keyboardHidden|screenSize" />
+57-->C:\Users\aog61\Desktop\SDKExamples\wikitude-sdk-samples\src\main\AndroidManifest.xml:49:13-74
+58        <activity
+58-->C:\Users\aog61\Desktop\SDKExamples\wikitude-sdk-samples\src\main\AndroidManifest.xml:50:9-52:77
+59            android:name="com.csub.geoAR.advanced.SamplePoiDetailActivity"
+59-->C:\Users\aog61\Desktop\SDKExamples\wikitude-sdk-samples\src\main\AndroidManifest.xml:51:13-61
+60            android:configChanges="orientation|keyboardHidden|screenSize" />
+60-->C:\Users\aog61\Desktop\SDKExamples\wikitude-sdk-samples\src\main\AndroidManifest.xml:52:13-74
+61        <activity
+61-->C:\Users\aog61\Desktop\SDKExamples\wikitude-sdk-samples\src\main\AndroidManifest.xml:53:9-55:77
+62            android:name="com.csub.geoAR.fragments.UrlLauncherActivity"
+62-->C:\Users\aog61\Desktop\SDKExamples\wikitude-sdk-samples\src\main\AndroidManifest.xml:54:13-58
+63            android:configChanges="orientation|keyboardHidden|screenSize" />
+63-->C:\Users\aog61\Desktop\SDKExamples\wikitude-sdk-samples\src\main\AndroidManifest.xml:55:13-74
+64        <activity
+64-->C:\Users\aog61\Desktop\SDKExamples\wikitude-sdk-samples\src\main\AndroidManifest.xml:56:9-58:77
+65            android:name="com.csub.geoAR.advanced.ArchitectViewExtensionActivity"
+65-->C:\Users\aog61\Desktop\SDKExamples\wikitude-sdk-samples\src\main\AndroidManifest.xml:57:13-68
+66            android:configChanges="orientation|keyboardHidden|screenSize" />
+66-->C:\Users\aog61\Desktop\SDKExamples\wikitude-sdk-samples\src\main\AndroidManifest.xml:58:13-74
+67        <activity
+67-->C:\Users\aog61\Desktop\SDKExamples\wikitude-sdk-samples\src\main\AndroidManifest.xml:59:9-61:40
+68            android:name="com.csub.geoAR.util.urllauncher.UrlLauncherSettingsActivity"
+68-->C:\Users\aog61\Desktop\SDKExamples\wikitude-sdk-samples\src\main\AndroidManifest.xml:60:13-73
+69            android:noHistory="true" />
+69-->C:\Users\aog61\Desktop\SDKExamples\wikitude-sdk-samples\src\main\AndroidManifest.xml:61:13-37
+70        <activity android:name="com.csub.geoAR.util.urllauncher.UrlLauncherStorageActivity" />
+70-->C:\Users\aog61\Desktop\SDKExamples\wikitude-sdk-samples\src\main\AndroidManifest.xml:62:9-81
+70-->C:\Users\aog61\Desktop\SDKExamples\wikitude-sdk-samples\src\main\AndroidManifest.xml:62:19-78
+71
+72        <provider
+72-->C:\Users\aog61\Desktop\SDKExamples\wikitude-sdk-samples\src\main\AndroidManifest.xml:64:9-72:20
+73            android:name="android.support.v4.content.FileProvider"
+73-->C:\Users\aog61\Desktop\SDKExamples\wikitude-sdk-samples\src\main\AndroidManifest.xml:65:13-67
+74            android:authorities="com.csub.geoAR.provider"
+74-->C:\Users\aog61\Desktop\SDKExamples\wikitude-sdk-samples\src\main\AndroidManifest.xml:66:13-58
+75            android:exported="false"
+75-->C:\Users\aog61\Desktop\SDKExamples\wikitude-sdk-samples\src\main\AndroidManifest.xml:67:13-37
+76            android:grantUriPermissions="true" >
+76-->C:\Users\aog61\Desktop\SDKExamples\wikitude-sdk-samples\src\main\AndroidManifest.xml:68:13-47
+77            <meta-data
+77-->C:\Users\aog61\Desktop\SDKExamples\wikitude-sdk-samples\src\main\AndroidManifest.xml:69:13-71:58
+78                android:name="android.support.FILE_PROVIDER_PATHS"
+78-->C:\Users\aog61\Desktop\SDKExamples\wikitude-sdk-samples\src\main\AndroidManifest.xml:70:17-67
+79                android:resource="@xml/provider_paths" />
+79-->C:\Users\aog61\Desktop\SDKExamples\wikitude-sdk-samples\src\main\AndroidManifest.xml:71:17-55
+80        </provider>
+81
+82        <meta-data
+82-->C:\Users\aog61\Desktop\SDKExamples\wikitude-sdk-samples\src\main\AndroidManifest.xml:73:9-81
+83            android:name="com.google.ar.core"
+83-->C:\Users\aog61\Desktop\SDKExamples\wikitude-sdk-samples\src\main\AndroidManifest.xml:73:20-53
+84            android:value="optional" />
+84-->C:\Users\aog61\Desktop\SDKExamples\wikitude-sdk-samples\src\main\AndroidManifest.xml:73:54-78
+85        <!-- This activity is critical for installing ARCore when it is not already present. -->
+86        <activity
+86-->[com.google.ar:core:1.1.0] C:\Users\aog61\.gradle\caches\transforms-2\files-2.1\a142fb1d50ccf196efecc0487528badb\core-1.1.0\AndroidManifest.xml:31:9-37:80
+87            android:name="com.google.ar.core.InstallActivity"
+87-->[com.google.ar:core:1.1.0] C:\Users\aog61\.gradle\caches\transforms-2\files-2.1\a142fb1d50ccf196efecc0487528badb\core-1.1.0\AndroidManifest.xml:32:13-62
+88            android:configChanges="keyboardHidden|orientation|screenSize"
+88-->[com.google.ar:core:1.1.0] C:\Users\aog61\.gradle\caches\transforms-2\files-2.1\a142fb1d50ccf196efecc0487528badb\core-1.1.0\AndroidManifest.xml:33:13-74
+89            android:excludeFromRecents="true"
+89-->[com.google.ar:core:1.1.0] C:\Users\aog61\.gradle\caches\transforms-2\files-2.1\a142fb1d50ccf196efecc0487528badb\core-1.1.0\AndroidManifest.xml:34:13-46
+90            android:exported="false"
+90-->[com.google.ar:core:1.1.0] C:\Users\aog61\.gradle\caches\transforms-2\files-2.1\a142fb1d50ccf196efecc0487528badb\core-1.1.0\AndroidManifest.xml:35:13-37
+91            android:launchMode="singleTop"
+91-->[com.google.ar:core:1.1.0] C:\Users\aog61\.gradle\caches\transforms-2\files-2.1\a142fb1d50ccf196efecc0487528badb\core-1.1.0\AndroidManifest.xml:36:13-43
+92            android:theme="@android:style/Theme.Material.Light.Dialog.Alert" /> <!-- The minimal version code of ARCore APK required for an app using this SDK. -->
+92-->[com.google.ar:core:1.1.0] C:\Users\aog61\.gradle\caches\transforms-2\files-2.1\a142fb1d50ccf196efecc0487528badb\core-1.1.0\AndroidManifest.xml:37:13-77
+93        <meta-data
+93-->[com.google.ar:core:1.1.0] C:\Users\aog61\.gradle\caches\transforms-2\files-2.1\a142fb1d50ccf196efecc0487528badb\core-1.1.0\AndroidManifest.xml:39:9-41:41
+94            android:name="com.google.ar.core.min_apk_version"
+94-->[com.google.ar:core:1.1.0] C:\Users\aog61\.gradle\caches\transforms-2\files-2.1\a142fb1d50ccf196efecc0487528badb\core-1.1.0\AndroidManifest.xml:40:13-62
+95            android:value="180226000" />
+95-->[com.google.ar:core:1.1.0] C:\Users\aog61\.gradle\caches\transforms-2\files-2.1\a142fb1d50ccf196efecc0487528badb\core-1.1.0\AndroidManifest.xml:41:13-38
+96
+97        <activity android:name="com.wikitude.architect.BrowserActivity" />
+97-->[:wikitude-sdk] C:\Users\aog61\Desktop\SDKExamples\wikitude-sdk\build\.transforms\6efd09d0fc2ee6a55c3a0e39938f071e\wikitudesdk\AndroidManifest.xml:12:9-75
+97-->[:wikitude-sdk] C:\Users\aog61\Desktop\SDKExamples\wikitude-sdk\build\.transforms\6efd09d0fc2ee6a55c3a0e39938f071e\wikitudesdk\AndroidManifest.xml:12:19-72
+98        <activity
+98-->[:wikitude-sdk] C:\Users\aog61\Desktop\SDKExamples\wikitude-sdk\build\.transforms\6efd09d0fc2ee6a55c3a0e39938f071e\wikitudesdk\AndroidManifest.xml:13:9-15:77
+99            android:name="com.wikitude.tools.activities.MediaPlayerActivity"
+99-->[:wikitude-sdk] C:\Users\aog61\Desktop\SDKExamples\wikitude-sdk\build\.transforms\6efd09d0fc2ee6a55c3a0e39938f071e\wikitudesdk\AndroidManifest.xml:14:13-77
+100            android:configChanges="orientation|keyboardHidden|screenSize" />
+100-->[:wikitude-sdk] C:\Users\aog61\Desktop\SDKExamples\wikitude-sdk\build\.transforms\6efd09d0fc2ee6a55c3a0e39938f071e\wikitudesdk\AndroidManifest.xml:15:13-74
+101    </application>
+102
+103</manifest>

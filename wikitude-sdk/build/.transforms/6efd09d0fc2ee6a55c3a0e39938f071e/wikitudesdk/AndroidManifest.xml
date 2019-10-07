@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.wikitude.architectandlib"
+    android:versionCode="1"
+    android:versionName="8.7.0" >
+
+    <uses-sdk
+        android:minSdkVersion="19"
+        android:targetSdkVersion="27" />
+
+    <application>
+        <activity android:name="com.wikitude.architect.BrowserActivity" />
+        <activity
+            android:name="com.wikitude.tools.activities.MediaPlayerActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize" />
+    </application>
+
+</manifest>
