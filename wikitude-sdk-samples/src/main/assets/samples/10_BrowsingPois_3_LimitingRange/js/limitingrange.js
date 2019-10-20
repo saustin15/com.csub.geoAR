@@ -3,6 +3,7 @@
     places near given location.
  */
 var ServerInformation = {
+    // POIDATA_SERVER: "https://www.cs.csub.edu/~rortiz/test/convertedData.json",
     POIDATA_SERVER: "https://example.wikitude.com/GetSamplePois/",
     POIDATA_SERVER_ARG_LAT: "lat",
     POIDATA_SERVER_ARG_LON: "lon",
@@ -69,7 +70,28 @@ var World = {
                 "altitude": parseFloat(poiData[currentPlaceNr].altitude),
                 "title": poiData[currentPlaceNr].name,
                 "description": poiData[currentPlaceNr].description
+
+                /*
+                for (var i = 0; i < poiData[currentPlaceNr].description.length; i++) {
+                    "description": poiData[currentPlaceNr].description[i];
+                }
+
+
+
+               "description": poiData[currentPlaceNr].description[0],
+                 "description": poiData[currentPlaceNr].description[1]
+               //"description": poiData[currentPlaceNr].description.room1,
+               //"description": poiData[currentPlaceNr].description.room2
+               */
             };
+
+/*
+                var x = "";
+                for (var i = 0; singlePoi.poiData[currentPlaceNr].description.length; i++) {
+                    singlePoi.poiData[currentPlaceNr].description[] += singlePoi.poiData[currentPlaceNr].description[i]
+                }
+                /*
+                */
 
             World.markerList.push(new Marker(singlePoi));
         }
