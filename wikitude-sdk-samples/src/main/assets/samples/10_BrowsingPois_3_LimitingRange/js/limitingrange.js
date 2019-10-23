@@ -4,7 +4,9 @@
  */
 var ServerInformation = {
     // POIDATA_SERVER: "https://www.cs.csub.edu/~rortiz/test/convertedData.json",
-    POIDATA_SERVER: "https://example.wikitude.com/GetSamplePois/",
+    //POIDATA_SERVER: "https://example.wikitude.com/GetSamplePois/",
+    // C.A. 10/23/2019
+    POIDATA_SERVER: "https://cs.csub.edu/~caleman/SenSem/testdata",
     POIDATA_SERVER_ARG_LAT: "lat",
     POIDATA_SERVER_ARG_LON: "lon",
     POIDATA_SERVER_ARG_NR_POIS: "nrPois"
