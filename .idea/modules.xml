@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/SDKExamples.iml" filepath="$PROJECT_DIR$/SDKExamples.iml" />
+      <module fileurl="file://$PROJECT_DIR$/com.csub.geoAR.iml" filepath="$PROJECT_DIR$/com.csub.geoAR.iml" />
       <module fileurl="file://$PROJECT_DIR$/plugins/plugins.iml" filepath="$PROJECT_DIR$/plugins/plugins.iml" />
       <module fileurl="file://$PROJECT_DIR$/wikitude-sdk/wikitude-sdk.iml" filepath="$PROJECT_DIR$/wikitude-sdk/wikitude-sdk.iml" />
       <module fileurl="file://$PROJECT_DIR$/wikitude-sdk-samples/wikitude-sdk-samples.iml" filepath="$PROJECT_DIR$/wikitude-sdk-samples/wikitude-sdk-samples.iml" />

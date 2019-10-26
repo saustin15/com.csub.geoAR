@@ -113,5 +113,6 @@
     <orderEntry type="library" name="Gradle: com.android.support.constraint:constraint-layout:1.0.2@aar" level="project" />
     <orderEntry type="library" name="Gradle: artifacts:wikitude-sdk:unspecified@jar" level="project" />
     <orderEntry type="module" module-name="plugins" />
+    <orderEntry type="module" module-name="plugins" />
   </component>
 </module>
