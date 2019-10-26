@@ -1,10 +1,10 @@
 [
     {
-        "category_name": "Point of Interest",
+        "category_name": "Navigating Campus",
         "samples": [
 
             {
-                "name": "Limiting Range",
+                "name": "Click Here to Start",
                 "path": "10_BrowsingPois_3_LimitingRange/index.html",
                 "requiredFeatures": [
                     "geo"

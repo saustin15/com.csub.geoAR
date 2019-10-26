@@ -1,12 +1,12 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\aog61\Desktop\SDKExamples\wikitude-sdk-samples\src\main\AndroidManifest.xml:2:1-76:12
-INJECTED from C:\Users\aog61\Desktop\SDKExamples\wikitude-sdk-samples\src\main\AndroidManifest.xml:2:1-76:12
-INJECTED from C:\Users\aog61\Desktop\SDKExamples\wikitude-sdk-samples\src\main\AndroidManifest.xml:2:1-76:12
-INJECTED from C:\Users\aog61\Desktop\SDKExamples\wikitude-sdk-samples\src\main\AndroidManifest.xml:2:1-76:12
+ADDED from C:\Users\aog61\Desktop\com.csub.geoAR\wikitude-sdk-samples\src\main\AndroidManifest.xml:2:1-76:12
+INJECTED from C:\Users\aog61\Desktop\com.csub.geoAR\wikitude-sdk-samples\src\main\AndroidManifest.xml:2:1-76:12
+INJECTED from C:\Users\aog61\Desktop\com.csub.geoAR\wikitude-sdk-samples\src\main\AndroidManifest.xml:2:1-76:12
+INJECTED from C:\Users\aog61\Desktop\com.csub.geoAR\wikitude-sdk-samples\src\main\AndroidManifest.xml:2:1-76:12
 MERGED from [com.google.ar:core:1.1.0] C:\Users\aog61\.gradle\caches\transforms-2\files-2.1\a142fb1d50ccf196efecc0487528badb\core-1.1.0\AndroidManifest.xml:17:1-44:12
-MERGED from [:plugins] C:\Users\aog61\Desktop\SDKExamples\plugins\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-9:12
-MERGED from [:wikitude-sdk] C:\Users\aog61\Desktop\SDKExamples\wikitude-sdk\build\.transforms\6efd09d0fc2ee6a55c3a0e39938f071e\wikitudesdk\AndroidManifest.xml:2:1-18:12
+MERGED from [:plugins] C:\Users\aog61\Desktop\com.csub.geoAR\plugins\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-9:12
+MERGED from [:wikitude-sdk] C:\Users\aog61\Desktop\com.csub.geoAR\wikitude-sdk\build\.transforms\a13f8e93d428a7e14a948f34f35633be\wikitudesdk\AndroidManifest.xml:2:1-18:12
 MERGED from [com.android.support:design:27.1.0] C:\Users\aog61\.gradle\caches\transforms-2\files-2.1\349ff9e23f7490ef830ec2f17ad44011\design-27.1.0\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:appcompat-v7:27.1.0] C:\Users\aog61\.gradle\caches\transforms-2\files-2.1\1ee1a41a4673e7b3823d88aff9031ff6\appcompat-v7-27.1.0\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:support-v4:27.1.0] C:\Users\aog61\.gradle\caches\transforms-2\files-2.1\d028f2a2c2aa5461635e85f3f6496442\support-v4-27.1.0\AndroidManifest.xml:17:1-22:12
@@ -24,191 +24,191 @@ MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\aog61\.gradle\
 MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\aog61\.gradle\caches\transforms-2\files-2.1\49bb1424736ce212db233f6a03c8fa05\viewmodel-1.1.0\AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\aog61\.gradle\caches\transforms-2\files-2.1\80a88dae8353adc11fba685d87eecd7a\runtime-1.1.0\AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.core:runtime:1.1.0] C:\Users\aog61\.gradle\caches\transforms-2\files-2.1\2c30710b90705ce63946384115511537\runtime-1.1.0\AndroidManifest.xml:17:1-22:12
-INJECTED from C:\Users\aog61\Desktop\SDKExamples\wikitude-sdk-samples\src\main\AndroidManifest.xml:2:1-76:12
-INJECTED from C:\Users\aog61\Desktop\SDKExamples\wikitude-sdk-samples\src\main\AndroidManifest.xml:2:1-76:12
-INJECTED from C:\Users\aog61\Desktop\SDKExamples\wikitude-sdk-samples\src\main\AndroidManifest.xml:2:1-76:12
+INJECTED from C:\Users\aog61\Desktop\com.csub.geoAR\wikitude-sdk-samples\src\main\AndroidManifest.xml:2:1-76:12
+INJECTED from C:\Users\aog61\Desktop\com.csub.geoAR\wikitude-sdk-samples\src\main\AndroidManifest.xml:2:1-76:12
+INJECTED from C:\Users\aog61\Desktop\com.csub.geoAR\wikitude-sdk-samples\src\main\AndroidManifest.xml:2:1-76:12
 	package
-		ADDED from C:\Users\aog61\Desktop\SDKExamples\wikitude-sdk-samples\src\main\AndroidManifest.xml:3:5-29
-		INJECTED from C:\Users\aog61\Desktop\SDKExamples\wikitude-sdk-samples\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\aog61\Desktop\SDKExamples\wikitude-sdk-samples\src\main\AndroidManifest.xml
+		ADDED from C:\Users\aog61\Desktop\com.csub.geoAR\wikitude-sdk-samples\src\main\AndroidManifest.xml:3:5-29
+		INJECTED from C:\Users\aog61\Desktop\com.csub.geoAR\wikitude-sdk-samples\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\aog61\Desktop\com.csub.geoAR\wikitude-sdk-samples\src\main\AndroidManifest.xml
 	android:versionName
-		INJECTED from C:\Users\aog61\Desktop\SDKExamples\wikitude-sdk-samples\src\main\AndroidManifest.xml
-		ADDED from C:\Users\aog61\Desktop\SDKExamples\wikitude-sdk-samples\src\main\AndroidManifest.xml:2:1-76:12
-		INJECTED from C:\Users\aog61\Desktop\SDKExamples\wikitude-sdk-samples\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\aog61\Desktop\com.csub.geoAR\wikitude-sdk-samples\src\main\AndroidManifest.xml
+		ADDED from C:\Users\aog61\Desktop\com.csub.geoAR\wikitude-sdk-samples\src\main\AndroidManifest.xml:2:1-76:12
+		INJECTED from C:\Users\aog61\Desktop\com.csub.geoAR\wikitude-sdk-samples\src\main\AndroidManifest.xml
 	android:versionCode
-		INJECTED from C:\Users\aog61\Desktop\SDKExamples\wikitude-sdk-samples\src\main\AndroidManifest.xml
-		ADDED from C:\Users\aog61\Desktop\SDKExamples\wikitude-sdk-samples\src\main\AndroidManifest.xml:2:1-76:12
-		INJECTED from C:\Users\aog61\Desktop\SDKExamples\wikitude-sdk-samples\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\aog61\Desktop\com.csub.geoAR\wikitude-sdk-samples\src\main\AndroidManifest.xml
+		ADDED from C:\Users\aog61\Desktop\com.csub.geoAR\wikitude-sdk-samples\src\main\AndroidManifest.xml:2:1-76:12
+		INJECTED from C:\Users\aog61\Desktop\com.csub.geoAR\wikitude-sdk-samples\src\main\AndroidManifest.xml
 	xmlns:android
-		ADDED from C:\Users\aog61\Desktop\SDKExamples\wikitude-sdk-samples\src\main\AndroidManifest.xml:2:11-69
+		ADDED from C:\Users\aog61\Desktop\com.csub.geoAR\wikitude-sdk-samples\src\main\AndroidManifest.xml:2:11-69
 uses-permission#android.permission.CAMERA
-ADDED from C:\Users\aog61\Desktop\SDKExamples\wikitude-sdk-samples\src\main\AndroidManifest.xml:5:5-65
+ADDED from C:\Users\aog61\Desktop\com.csub.geoAR\wikitude-sdk-samples\src\main\AndroidManifest.xml:5:5-65
 	android:name
-		ADDED from C:\Users\aog61\Desktop\SDKExamples\wikitude-sdk-samples\src\main\AndroidManifest.xml:5:22-62
+		ADDED from C:\Users\aog61\Desktop\com.csub.geoAR\wikitude-sdk-samples\src\main\AndroidManifest.xml:5:22-62
 uses-permission#android.permission.INTERNET
-ADDED from C:\Users\aog61\Desktop\SDKExamples\wikitude-sdk-samples\src\main\AndroidManifest.xml:6:5-67
+ADDED from C:\Users\aog61\Desktop\com.csub.geoAR\wikitude-sdk-samples\src\main\AndroidManifest.xml:6:5-67
 	android:name
-		ADDED from C:\Users\aog61\Desktop\SDKExamples\wikitude-sdk-samples\src\main\AndroidManifest.xml:6:22-64
+		ADDED from C:\Users\aog61\Desktop\com.csub.geoAR\wikitude-sdk-samples\src\main\AndroidManifest.xml:6:22-64
 uses-permission#android.permission.ACCESS_COARSE_LOCATION
-ADDED from C:\Users\aog61\Desktop\SDKExamples\wikitude-sdk-samples\src\main\AndroidManifest.xml:7:5-81
+ADDED from C:\Users\aog61\Desktop\com.csub.geoAR\wikitude-sdk-samples\src\main\AndroidManifest.xml:7:5-81
 	android:name
-		ADDED from C:\Users\aog61\Desktop\SDKExamples\wikitude-sdk-samples\src\main\AndroidManifest.xml:7:22-78
+		ADDED from C:\Users\aog61\Desktop\com.csub.geoAR\wikitude-sdk-samples\src\main\AndroidManifest.xml:7:22-78
 uses-permission#android.permission.ACCESS_FINE_LOCATION
-ADDED from C:\Users\aog61\Desktop\SDKExamples\wikitude-sdk-samples\src\main\AndroidManifest.xml:8:5-79
+ADDED from C:\Users\aog61\Desktop\com.csub.geoAR\wikitude-sdk-samples\src\main\AndroidManifest.xml:8:5-79
 	android:name
-		ADDED from C:\Users\aog61\Desktop\SDKExamples\wikitude-sdk-samples\src\main\AndroidManifest.xml:8:22-76
+		ADDED from C:\Users\aog61\Desktop\com.csub.geoAR\wikitude-sdk-samples\src\main\AndroidManifest.xml:8:22-76
 uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from C:\Users\aog61\Desktop\SDKExamples\wikitude-sdk-samples\src\main\AndroidManifest.xml:9:5-79
+ADDED from C:\Users\aog61\Desktop\com.csub.geoAR\wikitude-sdk-samples\src\main\AndroidManifest.xml:9:5-79
 	android:name
-		ADDED from C:\Users\aog61\Desktop\SDKExamples\wikitude-sdk-samples\src\main\AndroidManifest.xml:9:22-76
+		ADDED from C:\Users\aog61\Desktop\com.csub.geoAR\wikitude-sdk-samples\src\main\AndroidManifest.xml:9:22-76
 uses-permission#android.permission.ACCESS_WIFI_STATE
-ADDED from C:\Users\aog61\Desktop\SDKExamples\wikitude-sdk-samples\src\main\AndroidManifest.xml:10:5-76
+ADDED from C:\Users\aog61\Desktop\com.csub.geoAR\wikitude-sdk-samples\src\main\AndroidManifest.xml:10:5-76
 	android:name
-		ADDED from C:\Users\aog61\Desktop\SDKExamples\wikitude-sdk-samples\src\main\AndroidManifest.xml:10:22-73
+		ADDED from C:\Users\aog61\Desktop\com.csub.geoAR\wikitude-sdk-samples\src\main\AndroidManifest.xml:10:22-73
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-ADDED from C:\Users\aog61\Desktop\SDKExamples\wikitude-sdk-samples\src\main\AndroidManifest.xml:11:5-81
+ADDED from C:\Users\aog61\Desktop\com.csub.geoAR\wikitude-sdk-samples\src\main\AndroidManifest.xml:11:5-81
 	android:name
-		ADDED from C:\Users\aog61\Desktop\SDKExamples\wikitude-sdk-samples\src\main\AndroidManifest.xml:11:22-78
+		ADDED from C:\Users\aog61\Desktop\com.csub.geoAR\wikitude-sdk-samples\src\main\AndroidManifest.xml:11:22-78
 uses-feature#0x00020000
-ADDED from C:\Users\aog61\Desktop\SDKExamples\wikitude-sdk-samples\src\main\AndroidManifest.xml:13:5-15:35
+ADDED from C:\Users\aog61\Desktop\com.csub.geoAR\wikitude-sdk-samples\src\main\AndroidManifest.xml:13:5-15:35
 	android:glEsVersion
-		ADDED from C:\Users\aog61\Desktop\SDKExamples\wikitude-sdk-samples\src\main\AndroidManifest.xml:14:9-41
+		ADDED from C:\Users\aog61\Desktop\com.csub.geoAR\wikitude-sdk-samples\src\main\AndroidManifest.xml:14:9-41
 	android:required
-		ADDED from C:\Users\aog61\Desktop\SDKExamples\wikitude-sdk-samples\src\main\AndroidManifest.xml:15:9-32
+		ADDED from C:\Users\aog61\Desktop\com.csub.geoAR\wikitude-sdk-samples\src\main\AndroidManifest.xml:15:9-32
 uses-feature#android.hardware.camera
-ADDED from C:\Users\aog61\Desktop\SDKExamples\wikitude-sdk-samples\src\main\AndroidManifest.xml:16:5-18:35
+ADDED from C:\Users\aog61\Desktop\com.csub.geoAR\wikitude-sdk-samples\src\main\AndroidManifest.xml:16:5-18:35
 	android:required
-		ADDED from C:\Users\aog61\Desktop\SDKExamples\wikitude-sdk-samples\src\main\AndroidManifest.xml:18:9-32
+		ADDED from C:\Users\aog61\Desktop\com.csub.geoAR\wikitude-sdk-samples\src\main\AndroidManifest.xml:18:9-32
 	android:name
-		ADDED from C:\Users\aog61\Desktop\SDKExamples\wikitude-sdk-samples\src\main\AndroidManifest.xml:17:9-47
+		ADDED from C:\Users\aog61\Desktop\com.csub.geoAR\wikitude-sdk-samples\src\main\AndroidManifest.xml:17:9-47
 uses-feature#android.hardware.location
-ADDED from C:\Users\aog61\Desktop\SDKExamples\wikitude-sdk-samples\src\main\AndroidManifest.xml:19:5-21:35
+ADDED from C:\Users\aog61\Desktop\com.csub.geoAR\wikitude-sdk-samples\src\main\AndroidManifest.xml:19:5-21:35
 	android:required
-		ADDED from C:\Users\aog61\Desktop\SDKExamples\wikitude-sdk-samples\src\main\AndroidManifest.xml:21:9-32
+		ADDED from C:\Users\aog61\Desktop\com.csub.geoAR\wikitude-sdk-samples\src\main\AndroidManifest.xml:21:9-32
 	android:name
-		ADDED from C:\Users\aog61\Desktop\SDKExamples\wikitude-sdk-samples\src\main\AndroidManifest.xml:20:9-49
+		ADDED from C:\Users\aog61\Desktop\com.csub.geoAR\wikitude-sdk-samples\src\main\AndroidManifest.xml:20:9-49
 uses-feature#android.hardware.sensor.accelerometer
-ADDED from C:\Users\aog61\Desktop\SDKExamples\wikitude-sdk-samples\src\main\AndroidManifest.xml:22:5-24:35
+ADDED from C:\Users\aog61\Desktop\com.csub.geoAR\wikitude-sdk-samples\src\main\AndroidManifest.xml:22:5-24:35
 	android:required
-		ADDED from C:\Users\aog61\Desktop\SDKExamples\wikitude-sdk-samples\src\main\AndroidManifest.xml:24:9-32
+		ADDED from C:\Users\aog61\Desktop\com.csub.geoAR\wikitude-sdk-samples\src\main\AndroidManifest.xml:24:9-32
 	android:name
-		ADDED from C:\Users\aog61\Desktop\SDKExamples\wikitude-sdk-samples\src\main\AndroidManifest.xml:23:9-61
+		ADDED from C:\Users\aog61\Desktop\com.csub.geoAR\wikitude-sdk-samples\src\main\AndroidManifest.xml:23:9-61
 uses-feature#android.hardware.sensor.compass
-ADDED from C:\Users\aog61\Desktop\SDKExamples\wikitude-sdk-samples\src\main\AndroidManifest.xml:25:5-27:35
+ADDED from C:\Users\aog61\Desktop\com.csub.geoAR\wikitude-sdk-samples\src\main\AndroidManifest.xml:25:5-27:35
 	android:required
-		ADDED from C:\Users\aog61\Desktop\SDKExamples\wikitude-sdk-samples\src\main\AndroidManifest.xml:27:9-32
+		ADDED from C:\Users\aog61\Desktop\com.csub.geoAR\wikitude-sdk-samples\src\main\AndroidManifest.xml:27:9-32
 	android:name
-		ADDED from C:\Users\aog61\Desktop\SDKExamples\wikitude-sdk-samples\src\main\AndroidManifest.xml:26:9-55
+		ADDED from C:\Users\aog61\Desktop\com.csub.geoAR\wikitude-sdk-samples\src\main\AndroidManifest.xml:26:9-55
 uses-feature#android.hardware.sensor.gyroscope
-ADDED from C:\Users\aog61\Desktop\SDKExamples\wikitude-sdk-samples\src\main\AndroidManifest.xml:28:5-30:36
+ADDED from C:\Users\aog61\Desktop\com.csub.geoAR\wikitude-sdk-samples\src\main\AndroidManifest.xml:28:5-30:36
 	android:required
-		ADDED from C:\Users\aog61\Desktop\SDKExamples\wikitude-sdk-samples\src\main\AndroidManifest.xml:30:9-33
+		ADDED from C:\Users\aog61\Desktop\com.csub.geoAR\wikitude-sdk-samples\src\main\AndroidManifest.xml:30:9-33
 	android:name
-		ADDED from C:\Users\aog61\Desktop\SDKExamples\wikitude-sdk-samples\src\main\AndroidManifest.xml:29:9-57
+		ADDED from C:\Users\aog61\Desktop\com.csub.geoAR\wikitude-sdk-samples\src\main\AndroidManifest.xml:29:9-57
 application
-ADDED from C:\Users\aog61\Desktop\SDKExamples\wikitude-sdk-samples\src\main\AndroidManifest.xml:32:5-74:19
+ADDED from C:\Users\aog61\Desktop\com.csub.geoAR\wikitude-sdk-samples\src\main\AndroidManifest.xml:32:5-74:19
 MERGED from [com.google.ar:core:1.1.0] C:\Users\aog61\.gradle\caches\transforms-2\files-2.1\a142fb1d50ccf196efecc0487528badb\core-1.1.0\AndroidManifest.xml:28:5-42:19
 MERGED from [com.google.ar:core:1.1.0] C:\Users\aog61\.gradle\caches\transforms-2\files-2.1\a142fb1d50ccf196efecc0487528badb\core-1.1.0\AndroidManifest.xml:28:5-42:19
-MERGED from [:wikitude-sdk] C:\Users\aog61\Desktop\SDKExamples\wikitude-sdk\build\.transforms\6efd09d0fc2ee6a55c3a0e39938f071e\wikitudesdk\AndroidManifest.xml:11:5-16:19
-MERGED from [:wikitude-sdk] C:\Users\aog61\Desktop\SDKExamples\wikitude-sdk\build\.transforms\6efd09d0fc2ee6a55c3a0e39938f071e\wikitudesdk\AndroidManifest.xml:11:5-16:19
+MERGED from [:wikitude-sdk] C:\Users\aog61\Desktop\com.csub.geoAR\wikitude-sdk\build\.transforms\a13f8e93d428a7e14a948f34f35633be\wikitudesdk\AndroidManifest.xml:11:5-16:19
+MERGED from [:wikitude-sdk] C:\Users\aog61\Desktop\com.csub.geoAR\wikitude-sdk\build\.transforms\a13f8e93d428a7e14a948f34f35633be\wikitudesdk\AndroidManifest.xml:11:5-16:19
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\aog61\.gradle\caches\transforms-2\files-2.1\0be8ac9c669ca43ba2dbd9e15aa86d41\constraint-layout-1.0.2\AndroidManifest.xml:9:5-20
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\aog61\.gradle\caches\transforms-2\files-2.1\0be8ac9c669ca43ba2dbd9e15aa86d41\constraint-layout-1.0.2\AndroidManifest.xml:9:5-20
 	android:label
-		ADDED from C:\Users\aog61\Desktop\SDKExamples\wikitude-sdk-samples\src\main\AndroidManifest.xml:34:9-41
+		ADDED from C:\Users\aog61\Desktop\com.csub.geoAR\wikitude-sdk-samples\src\main\AndroidManifest.xml:34:9-41
 	android:resizeableActivity
-		ADDED from C:\Users\aog61\Desktop\SDKExamples\wikitude-sdk-samples\src\main\AndroidManifest.xml:36:9-43
+		ADDED from C:\Users\aog61\Desktop\com.csub.geoAR\wikitude-sdk-samples\src\main\AndroidManifest.xml:36:9-43
 	android:icon
-		ADDED from C:\Users\aog61\Desktop\SDKExamples\wikitude-sdk-samples\src\main\AndroidManifest.xml:33:9-43
+		ADDED from C:\Users\aog61\Desktop\com.csub.geoAR\wikitude-sdk-samples\src\main\AndroidManifest.xml:33:9-43
 	android:theme
-		ADDED from C:\Users\aog61\Desktop\SDKExamples\wikitude-sdk-samples\src\main\AndroidManifest.xml:35:9-40
+		ADDED from C:\Users\aog61\Desktop\com.csub.geoAR\wikitude-sdk-samples\src\main\AndroidManifest.xml:35:9-40
 activity#com.csub.geoAR.MainActivity
-ADDED from C:\Users\aog61\Desktop\SDKExamples\wikitude-sdk-samples\src\main\AndroidManifest.xml:37:9-43:20
+ADDED from C:\Users\aog61\Desktop\com.csub.geoAR\wikitude-sdk-samples\src\main\AndroidManifest.xml:37:9-43:20
 	android:name
-		ADDED from C:\Users\aog61\Desktop\SDKExamples\wikitude-sdk-samples\src\main\AndroidManifest.xml:37:19-47
+		ADDED from C:\Users\aog61\Desktop\com.csub.geoAR\wikitude-sdk-samples\src\main\AndroidManifest.xml:37:19-47
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\aog61\Desktop\SDKExamples\wikitude-sdk-samples\src\main\AndroidManifest.xml:38:13-42:29
+ADDED from C:\Users\aog61\Desktop\com.csub.geoAR\wikitude-sdk-samples\src\main\AndroidManifest.xml:38:13-42:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\aog61\Desktop\SDKExamples\wikitude-sdk-samples\src\main\AndroidManifest.xml:39:17-69
+ADDED from C:\Users\aog61\Desktop\com.csub.geoAR\wikitude-sdk-samples\src\main\AndroidManifest.xml:39:17-69
 	android:name
-		ADDED from C:\Users\aog61\Desktop\SDKExamples\wikitude-sdk-samples\src\main\AndroidManifest.xml:39:25-66
+		ADDED from C:\Users\aog61\Desktop\com.csub.geoAR\wikitude-sdk-samples\src\main\AndroidManifest.xml:39:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\aog61\Desktop\SDKExamples\wikitude-sdk-samples\src\main\AndroidManifest.xml:41:17-77
+ADDED from C:\Users\aog61\Desktop\com.csub.geoAR\wikitude-sdk-samples\src\main\AndroidManifest.xml:41:17-77
 	android:name
-		ADDED from C:\Users\aog61\Desktop\SDKExamples\wikitude-sdk-samples\src\main\AndroidManifest.xml:41:27-74
+		ADDED from C:\Users\aog61\Desktop\com.csub.geoAR\wikitude-sdk-samples\src\main\AndroidManifest.xml:41:27-74
 activity#com.csub.geoAR.SimpleArActivity
-ADDED from C:\Users\aog61\Desktop\SDKExamples\wikitude-sdk-samples\src\main\AndroidManifest.xml:44:9-46:77
+ADDED from C:\Users\aog61\Desktop\com.csub.geoAR\wikitude-sdk-samples\src\main\AndroidManifest.xml:44:9-46:77
 	android:configChanges
-		ADDED from C:\Users\aog61\Desktop\SDKExamples\wikitude-sdk-samples\src\main\AndroidManifest.xml:46:13-74
+		ADDED from C:\Users\aog61\Desktop\com.csub.geoAR\wikitude-sdk-samples\src\main\AndroidManifest.xml:46:13-74
 	android:name
-		ADDED from C:\Users\aog61\Desktop\SDKExamples\wikitude-sdk-samples\src\main\AndroidManifest.xml:45:13-45
+		ADDED from C:\Users\aog61\Desktop\com.csub.geoAR\wikitude-sdk-samples\src\main\AndroidManifest.xml:45:13-45
 activity#com.csub.geoAR.SimpleGeoArActivity
-ADDED from C:\Users\aog61\Desktop\SDKExamples\wikitude-sdk-samples\src\main\AndroidManifest.xml:47:9-49:77
+ADDED from C:\Users\aog61\Desktop\com.csub.geoAR\wikitude-sdk-samples\src\main\AndroidManifest.xml:47:9-49:77
 	android:configChanges
-		ADDED from C:\Users\aog61\Desktop\SDKExamples\wikitude-sdk-samples\src\main\AndroidManifest.xml:49:13-74
+		ADDED from C:\Users\aog61\Desktop\com.csub.geoAR\wikitude-sdk-samples\src\main\AndroidManifest.xml:49:13-74
 	android:name
-		ADDED from C:\Users\aog61\Desktop\SDKExamples\wikitude-sdk-samples\src\main\AndroidManifest.xml:48:13-48
+		ADDED from C:\Users\aog61\Desktop\com.csub.geoAR\wikitude-sdk-samples\src\main\AndroidManifest.xml:48:13-48
 activity#com.csub.geoAR.advanced.SamplePoiDetailActivity
-ADDED from C:\Users\aog61\Desktop\SDKExamples\wikitude-sdk-samples\src\main\AndroidManifest.xml:50:9-52:77
+ADDED from C:\Users\aog61\Desktop\com.csub.geoAR\wikitude-sdk-samples\src\main\AndroidManifest.xml:50:9-52:77
 	android:configChanges
-		ADDED from C:\Users\aog61\Desktop\SDKExamples\wikitude-sdk-samples\src\main\AndroidManifest.xml:52:13-74
+		ADDED from C:\Users\aog61\Desktop\com.csub.geoAR\wikitude-sdk-samples\src\main\AndroidManifest.xml:52:13-74
 	android:name
-		ADDED from C:\Users\aog61\Desktop\SDKExamples\wikitude-sdk-samples\src\main\AndroidManifest.xml:51:13-61
+		ADDED from C:\Users\aog61\Desktop\com.csub.geoAR\wikitude-sdk-samples\src\main\AndroidManifest.xml:51:13-61
 activity#com.csub.geoAR.fragments.UrlLauncherActivity
-ADDED from C:\Users\aog61\Desktop\SDKExamples\wikitude-sdk-samples\src\main\AndroidManifest.xml:53:9-55:77
+ADDED from C:\Users\aog61\Desktop\com.csub.geoAR\wikitude-sdk-samples\src\main\AndroidManifest.xml:53:9-55:77
 	android:configChanges
-		ADDED from C:\Users\aog61\Desktop\SDKExamples\wikitude-sdk-samples\src\main\AndroidManifest.xml:55:13-74
+		ADDED from C:\Users\aog61\Desktop\com.csub.geoAR\wikitude-sdk-samples\src\main\AndroidManifest.xml:55:13-74
 	android:name
-		ADDED from C:\Users\aog61\Desktop\SDKExamples\wikitude-sdk-samples\src\main\AndroidManifest.xml:54:13-58
+		ADDED from C:\Users\aog61\Desktop\com.csub.geoAR\wikitude-sdk-samples\src\main\AndroidManifest.xml:54:13-58
 activity#com.csub.geoAR.advanced.ArchitectViewExtensionActivity
-ADDED from C:\Users\aog61\Desktop\SDKExamples\wikitude-sdk-samples\src\main\AndroidManifest.xml:56:9-58:77
+ADDED from C:\Users\aog61\Desktop\com.csub.geoAR\wikitude-sdk-samples\src\main\AndroidManifest.xml:56:9-58:77
 	android:configChanges
-		ADDED from C:\Users\aog61\Desktop\SDKExamples\wikitude-sdk-samples\src\main\AndroidManifest.xml:58:13-74
+		ADDED from C:\Users\aog61\Desktop\com.csub.geoAR\wikitude-sdk-samples\src\main\AndroidManifest.xml:58:13-74
 	android:name
-		ADDED from C:\Users\aog61\Desktop\SDKExamples\wikitude-sdk-samples\src\main\AndroidManifest.xml:57:13-68
+		ADDED from C:\Users\aog61\Desktop\com.csub.geoAR\wikitude-sdk-samples\src\main\AndroidManifest.xml:57:13-68
 activity#com.csub.geoAR.util.urllauncher.UrlLauncherSettingsActivity
-ADDED from C:\Users\aog61\Desktop\SDKExamples\wikitude-sdk-samples\src\main\AndroidManifest.xml:59:9-61:40
+ADDED from C:\Users\aog61\Desktop\com.csub.geoAR\wikitude-sdk-samples\src\main\AndroidManifest.xml:59:9-61:40
 	android:noHistory
-		ADDED from C:\Users\aog61\Desktop\SDKExamples\wikitude-sdk-samples\src\main\AndroidManifest.xml:61:13-37
+		ADDED from C:\Users\aog61\Desktop\com.csub.geoAR\wikitude-sdk-samples\src\main\AndroidManifest.xml:61:13-37
 	android:name
-		ADDED from C:\Users\aog61\Desktop\SDKExamples\wikitude-sdk-samples\src\main\AndroidManifest.xml:60:13-73
+		ADDED from C:\Users\aog61\Desktop\com.csub.geoAR\wikitude-sdk-samples\src\main\AndroidManifest.xml:60:13-73
 activity#com.csub.geoAR.util.urllauncher.UrlLauncherStorageActivity
-ADDED from C:\Users\aog61\Desktop\SDKExamples\wikitude-sdk-samples\src\main\AndroidManifest.xml:62:9-81
+ADDED from C:\Users\aog61\Desktop\com.csub.geoAR\wikitude-sdk-samples\src\main\AndroidManifest.xml:62:9-81
 	android:name
-		ADDED from C:\Users\aog61\Desktop\SDKExamples\wikitude-sdk-samples\src\main\AndroidManifest.xml:62:19-78
+		ADDED from C:\Users\aog61\Desktop\com.csub.geoAR\wikitude-sdk-samples\src\main\AndroidManifest.xml:62:19-78
 provider#android.support.v4.content.FileProvider
-ADDED from C:\Users\aog61\Desktop\SDKExamples\wikitude-sdk-samples\src\main\AndroidManifest.xml:64:9-72:20
+ADDED from C:\Users\aog61\Desktop\com.csub.geoAR\wikitude-sdk-samples\src\main\AndroidManifest.xml:64:9-72:20
 	android:grantUriPermissions
-		ADDED from C:\Users\aog61\Desktop\SDKExamples\wikitude-sdk-samples\src\main\AndroidManifest.xml:68:13-47
+		ADDED from C:\Users\aog61\Desktop\com.csub.geoAR\wikitude-sdk-samples\src\main\AndroidManifest.xml:68:13-47
 	android:authorities
-		ADDED from C:\Users\aog61\Desktop\SDKExamples\wikitude-sdk-samples\src\main\AndroidManifest.xml:66:13-58
+		ADDED from C:\Users\aog61\Desktop\com.csub.geoAR\wikitude-sdk-samples\src\main\AndroidManifest.xml:66:13-58
 	android:exported
-		ADDED from C:\Users\aog61\Desktop\SDKExamples\wikitude-sdk-samples\src\main\AndroidManifest.xml:67:13-37
+		ADDED from C:\Users\aog61\Desktop\com.csub.geoAR\wikitude-sdk-samples\src\main\AndroidManifest.xml:67:13-37
 	android:name
-		ADDED from C:\Users\aog61\Desktop\SDKExamples\wikitude-sdk-samples\src\main\AndroidManifest.xml:65:13-67
+		ADDED from C:\Users\aog61\Desktop\com.csub.geoAR\wikitude-sdk-samples\src\main\AndroidManifest.xml:65:13-67
 meta-data#android.support.FILE_PROVIDER_PATHS
-ADDED from C:\Users\aog61\Desktop\SDKExamples\wikitude-sdk-samples\src\main\AndroidManifest.xml:69:13-71:58
+ADDED from C:\Users\aog61\Desktop\com.csub.geoAR\wikitude-sdk-samples\src\main\AndroidManifest.xml:69:13-71:58
 	android:resource
-		ADDED from C:\Users\aog61\Desktop\SDKExamples\wikitude-sdk-samples\src\main\AndroidManifest.xml:71:17-55
+		ADDED from C:\Users\aog61\Desktop\com.csub.geoAR\wikitude-sdk-samples\src\main\AndroidManifest.xml:71:17-55
 	android:name
-		ADDED from C:\Users\aog61\Desktop\SDKExamples\wikitude-sdk-samples\src\main\AndroidManifest.xml:70:17-67
+		ADDED from C:\Users\aog61\Desktop\com.csub.geoAR\wikitude-sdk-samples\src\main\AndroidManifest.xml:70:17-67
 meta-data#com.google.ar.core
-ADDED from C:\Users\aog61\Desktop\SDKExamples\wikitude-sdk-samples\src\main\AndroidManifest.xml:73:9-81
+ADDED from C:\Users\aog61\Desktop\com.csub.geoAR\wikitude-sdk-samples\src\main\AndroidManifest.xml:73:9-81
 	android:value
-		ADDED from C:\Users\aog61\Desktop\SDKExamples\wikitude-sdk-samples\src\main\AndroidManifest.xml:73:54-78
+		ADDED from C:\Users\aog61\Desktop\com.csub.geoAR\wikitude-sdk-samples\src\main\AndroidManifest.xml:73:54-78
 	android:name
-		ADDED from C:\Users\aog61\Desktop\SDKExamples\wikitude-sdk-samples\src\main\AndroidManifest.xml:73:20-53
+		ADDED from C:\Users\aog61\Desktop\com.csub.geoAR\wikitude-sdk-samples\src\main\AndroidManifest.xml:73:20-53
 uses-sdk
-INJECTED from C:\Users\aog61\Desktop\SDKExamples\wikitude-sdk-samples\src\main\AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from C:\Users\aog61\Desktop\SDKExamples\wikitude-sdk-samples\src\main\AndroidManifest.xml
-INJECTED from C:\Users\aog61\Desktop\SDKExamples\wikitude-sdk-samples\src\main\AndroidManifest.xml
+INJECTED from C:\Users\aog61\Desktop\com.csub.geoAR\wikitude-sdk-samples\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\aog61\Desktop\com.csub.geoAR\wikitude-sdk-samples\src\main\AndroidManifest.xml
+INJECTED from C:\Users\aog61\Desktop\com.csub.geoAR\wikitude-sdk-samples\src\main\AndroidManifest.xml
 MERGED from [com.google.ar:core:1.1.0] C:\Users\aog61\.gradle\caches\transforms-2\files-2.1\a142fb1d50ccf196efecc0487528badb\core-1.1.0\AndroidManifest.xml:25:5-44
 MERGED from [com.google.ar:core:1.1.0] C:\Users\aog61\.gradle\caches\transforms-2\files-2.1\a142fb1d50ccf196efecc0487528badb\core-1.1.0\AndroidManifest.xml:25:5-44
 MERGED from [com.google.ar:core:1.1.0] C:\Users\aog61\.gradle\caches\transforms-2\files-2.1\a142fb1d50ccf196efecc0487528badb\core-1.1.0\AndroidManifest.xml:26:5-47
 MERGED from [com.google.ar:core:1.1.0] C:\Users\aog61\.gradle\caches\transforms-2\files-2.1\a142fb1d50ccf196efecc0487528badb\core-1.1.0\AndroidManifest.xml:26:5-47
-MERGED from [:plugins] C:\Users\aog61\Desktop\SDKExamples\plugins\build\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-7:41
-MERGED from [:plugins] C:\Users\aog61\Desktop\SDKExamples\plugins\build\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-7:41
-MERGED from [:wikitude-sdk] C:\Users\aog61\Desktop\SDKExamples\wikitude-sdk\build\.transforms\6efd09d0fc2ee6a55c3a0e39938f071e\wikitudesdk\AndroidManifest.xml:7:5-9:41
-MERGED from [:wikitude-sdk] C:\Users\aog61\Desktop\SDKExamples\wikitude-sdk\build\.transforms\6efd09d0fc2ee6a55c3a0e39938f071e\wikitudesdk\AndroidManifest.xml:7:5-9:41
+MERGED from [:plugins] C:\Users\aog61\Desktop\com.csub.geoAR\plugins\build\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:plugins] C:\Users\aog61\Desktop\com.csub.geoAR\plugins\build\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:wikitude-sdk] C:\Users\aog61\Desktop\com.csub.geoAR\wikitude-sdk\build\.transforms\a13f8e93d428a7e14a948f34f35633be\wikitudesdk\AndroidManifest.xml:7:5-9:41
+MERGED from [:wikitude-sdk] C:\Users\aog61\Desktop\com.csub.geoAR\wikitude-sdk\build\.transforms\a13f8e93d428a7e14a948f34f35633be\wikitudesdk\AndroidManifest.xml:7:5-9:41
 MERGED from [com.android.support:design:27.1.0] C:\Users\aog61\.gradle\caches\transforms-2\files-2.1\349ff9e23f7490ef830ec2f17ad44011\design-27.1.0\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:design:27.1.0] C:\Users\aog61\.gradle\caches\transforms-2\files-2.1\349ff9e23f7490ef830ec2f17ad44011\design-27.1.0\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:appcompat-v7:27.1.0] C:\Users\aog61\.gradle\caches\transforms-2\files-2.1\1ee1a41a4673e7b3823d88aff9031ff6\appcompat-v7-27.1.0\AndroidManifest.xml:20:5-44
@@ -243,17 +243,17 @@ MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\aog61\.gradle\caches
 MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\aog61\.gradle\caches\transforms-2\files-2.1\80a88dae8353adc11fba685d87eecd7a\runtime-1.1.0\AndroidManifest.xml:20:5-44
 MERGED from [android.arch.core:runtime:1.1.0] C:\Users\aog61\.gradle\caches\transforms-2\files-2.1\2c30710b90705ce63946384115511537\runtime-1.1.0\AndroidManifest.xml:20:5-44
 MERGED from [android.arch.core:runtime:1.1.0] C:\Users\aog61\.gradle\caches\transforms-2\files-2.1\2c30710b90705ce63946384115511537\runtime-1.1.0\AndroidManifest.xml:20:5-44
-INJECTED from C:\Users\aog61\Desktop\SDKExamples\wikitude-sdk-samples\src\main\AndroidManifest.xml
-INJECTED from C:\Users\aog61\Desktop\SDKExamples\wikitude-sdk-samples\src\main\AndroidManifest.xml
+INJECTED from C:\Users\aog61\Desktop\com.csub.geoAR\wikitude-sdk-samples\src\main\AndroidManifest.xml
+INJECTED from C:\Users\aog61\Desktop\com.csub.geoAR\wikitude-sdk-samples\src\main\AndroidManifest.xml
 	android:targetSdkVersion
-		INJECTED from C:\Users\aog61\Desktop\SDKExamples\wikitude-sdk-samples\src\main\AndroidManifest.xml
-		ADDED from C:\Users\aog61\Desktop\SDKExamples\wikitude-sdk-samples\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\aog61\Desktop\SDKExamples\wikitude-sdk-samples\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\aog61\Desktop\com.csub.geoAR\wikitude-sdk-samples\src\main\AndroidManifest.xml
+		ADDED from C:\Users\aog61\Desktop\com.csub.geoAR\wikitude-sdk-samples\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\aog61\Desktop\com.csub.geoAR\wikitude-sdk-samples\src\main\AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from C:\Users\aog61\Desktop\SDKExamples\wikitude-sdk-samples\src\main\AndroidManifest.xml
-		ADDED from C:\Users\aog61\Desktop\SDKExamples\wikitude-sdk-samples\src\main\AndroidManifest.xml
-		MERGED from C:\Users\aog61\Desktop\SDKExamples\wikitude-sdk-samples\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\aog61\Desktop\SDKExamples\wikitude-sdk-samples\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\aog61\Desktop\com.csub.geoAR\wikitude-sdk-samples\src\main\AndroidManifest.xml
+		ADDED from C:\Users\aog61\Desktop\com.csub.geoAR\wikitude-sdk-samples\src\main\AndroidManifest.xml
+		MERGED from C:\Users\aog61\Desktop\com.csub.geoAR\wikitude-sdk-samples\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\aog61\Desktop\com.csub.geoAR\wikitude-sdk-samples\src\main\AndroidManifest.xml
 activity#com.google.ar.core.InstallActivity
 ADDED from [com.google.ar:core:1.1.0] C:\Users\aog61\.gradle\caches\transforms-2\files-2.1\a142fb1d50ccf196efecc0487528badb\core-1.1.0\AndroidManifest.xml:31:9-37:80
 	android:excludeFromRecents
@@ -275,12 +275,12 @@ ADDED from [com.google.ar:core:1.1.0] C:\Users\aog61\.gradle\caches\transforms-2
 	android:name
 		ADDED from [com.google.ar:core:1.1.0] C:\Users\aog61\.gradle\caches\transforms-2\files-2.1\a142fb1d50ccf196efecc0487528badb\core-1.1.0\AndroidManifest.xml:40:13-62
 activity#com.wikitude.architect.BrowserActivity
-ADDED from [:wikitude-sdk] C:\Users\aog61\Desktop\SDKExamples\wikitude-sdk\build\.transforms\6efd09d0fc2ee6a55c3a0e39938f071e\wikitudesdk\AndroidManifest.xml:12:9-75
+ADDED from [:wikitude-sdk] C:\Users\aog61\Desktop\com.csub.geoAR\wikitude-sdk\build\.transforms\a13f8e93d428a7e14a948f34f35633be\wikitudesdk\AndroidManifest.xml:12:9-75
 	android:name
-		ADDED from [:wikitude-sdk] C:\Users\aog61\Desktop\SDKExamples\wikitude-sdk\build\.transforms\6efd09d0fc2ee6a55c3a0e39938f071e\wikitudesdk\AndroidManifest.xml:12:19-72
+		ADDED from [:wikitude-sdk] C:\Users\aog61\Desktop\com.csub.geoAR\wikitude-sdk\build\.transforms\a13f8e93d428a7e14a948f34f35633be\wikitudesdk\AndroidManifest.xml:12:19-72
 activity#com.wikitude.tools.activities.MediaPlayerActivity
-ADDED from [:wikitude-sdk] C:\Users\aog61\Desktop\SDKExamples\wikitude-sdk\build\.transforms\6efd09d0fc2ee6a55c3a0e39938f071e\wikitudesdk\AndroidManifest.xml:13:9-15:77
+ADDED from [:wikitude-sdk] C:\Users\aog61\Desktop\com.csub.geoAR\wikitude-sdk\build\.transforms\a13f8e93d428a7e14a948f34f35633be\wikitudesdk\AndroidManifest.xml:13:9-15:77
 	android:configChanges
-		ADDED from [:wikitude-sdk] C:\Users\aog61\Desktop\SDKExamples\wikitude-sdk\build\.transforms\6efd09d0fc2ee6a55c3a0e39938f071e\wikitudesdk\AndroidManifest.xml:15:13-74
+		ADDED from [:wikitude-sdk] C:\Users\aog61\Desktop\com.csub.geoAR\wikitude-sdk\build\.transforms\a13f8e93d428a7e14a948f34f35633be\wikitudesdk\AndroidManifest.xml:15:13-74
 	android:name
-		ADDED from [:wikitude-sdk] C:\Users\aog61\Desktop\SDKExamples\wikitude-sdk\build\.transforms\6efd09d0fc2ee6a55c3a0e39938f071e\wikitudesdk\AndroidManifest.xml:14:13-77
+		ADDED from [:wikitude-sdk] C:\Users\aog61\Desktop\com.csub.geoAR\wikitude-sdk\build\.transforms\a13f8e93d428a7e14a948f34f35633be\wikitudesdk\AndroidManifest.xml:14:13-77

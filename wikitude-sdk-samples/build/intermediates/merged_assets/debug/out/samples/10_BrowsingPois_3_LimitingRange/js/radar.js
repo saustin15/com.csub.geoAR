@@ -1,3 +1,4 @@
+
 var PoiRadar = {
 
     hide: function hideFn() {
@@ -33,6 +34,7 @@ var PoiRadar = {
         AR.radar.northIndicator.radius = 0.0;
 
         AR.radar.enabled = true;
+        //set to true to get radar to show up
     },
 
     updatePosition: function updatePositionFn() {

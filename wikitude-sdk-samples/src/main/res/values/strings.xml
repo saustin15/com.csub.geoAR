@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">CSUB AR Map</string>
-    <string name="menu_main_launch_url">Custom URL Launcher</string>
+    <string name="menu_main_launch_url">Useful Campus Links</string>
     <string name="menu_main_show_sdk_info">SDK Build Information</string>
 
     <!-- Permission handling -->

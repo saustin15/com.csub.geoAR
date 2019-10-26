@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\aog61\\Desktop\\SDKExamples\\wikitude-sdk-samples\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v21\\values-v21.xml",
+            "outputFile": "C:\\Users\\aog61\\Desktop\\com.csub.geoAR\\wikitude-sdk-samples\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v21\\values-v21.xml",
             "map": [
                 {
                     "source": "C:\\Users\\aog61\\.gradle\\caches\\transforms-2\\files-2.1\\349ff9e23f7490ef830ec2f17ad44011\\design-27.1.0\\res\\values-v21\\values-v21.xml",
