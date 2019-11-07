@@ -12,6 +12,15 @@ var ServerInformation = {
     POIDATA_SERVER_ARG_NR_POIS: "nrPois"
 };
 
+//public LocationAssert hasAltitude(double altitude) {
+// isNotNull();
+// double actualAltitude = actual.getAltitude();
+// assertThat(actualAltitude) //
+//   .overridingErrorMessage("Expected altitude <%s> but was <%s>.", altitude, actualAltitude) //
+//   .isEqualTo(altitude);
+// return this;
+//}
+
 /* Implementation of AR-Experience (aka "World"). */
 var World = {
 
@@ -19,6 +28,7 @@ var World = {
         User's latest known location, accessible via userLocation.latitude, userLocation.longitude,
          userLocation.altitude.
      */
+    //alert("test");
     userLocation: null,
 
     /* You may request new data from server periodically, however: in this sample data is only requested once. */
@@ -104,7 +114,7 @@ var World = {
         World.updateStatusMessage(currentPlaceNr + ' places loaded');
 
         /* Set distance slider to 100%. */
-        $("#panel-distance-range").val(100);
+        $("#panel-distance-range").val(2);
         $("#panel-distance-range").slider("refresh");
     },
 
@@ -177,6 +187,7 @@ var World = {
         /* Update panel values. */
         $("#poi-detail-title").html(marker.poiData.title);
         $("#poi-detail-description").html(marker.poiData.description);
+        //$("#poi-detail-altitude").html(marker.poiData.altitude);
 
 
         /*
@@ -195,8 +206,10 @@ var World = {
         var distanceToUserValue = (marker.distanceToUser > 999) ?
             ((marker.distanceToUser / 1000).toFixed(2) + " km") :
             (Math.round(marker.distanceToUser) + " m");
-
+        //Altitude has been added using the userLocation function. CA 11/3
+        var altitudeYE = World.userLocation.altitude + "m";
         $("#poi-detail-distance").html(distanceToUserValue);
+        $("#poi-detail-altitude").html(altitudeYE);
 
         /* Show panel. */
         $("#panel-poidetail").panel("open", 123);
