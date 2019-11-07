@@ -84,6 +84,10 @@
 
             <!-- distance -->
             <h4>Distance: <a id="poi-detail-distance"></a></h4>
+
+            <!-- This is for the altitude, this is being called within limitingrange.js CA 11/3-->
+            <!-- Altitude -->
+            <h4>Current Altitude: <a id="poi-detail-altitude"></a></h4>
         </div>
     </div>
 
@@ -108,10 +112,10 @@
             <h4> Visible: <a id="panel-distance-places"></a></h4>
 
             <!-- default slider -->
-            <!-- This is where the range may be adjusted -CA10/11-->
-            <!-- Range was adjusted to 2km with increments of 0.10 km -CA11/01-->
-            <input id="panel-distance-range" type="range" data-highlight="true" name="rangeSlider" min="0" max="2"
-                   value="2" data-show-value="false" step="0.10" data-popup-enabled="false" readonly="readonly">
+
+            <!-- This is where the range may be adjusted -CA 10/11-->
+            <input id="panel-distance-range" type="range" data-highlight="true" name="rangeSlider" min="0" max="3
+                   value="3" data-show-value="false" step="0.1" data-popup-enabled="false" readonly="readonly">
         </div>
     </div>
 </div>
