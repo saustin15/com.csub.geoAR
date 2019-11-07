@@ -4,6 +4,7 @@
  */
 var ServerInformation = {
     // POIDATA_SERVER: "https://www.cs.csub.edu/~rortiz/test/convertedData.json",
+    // POIDATA_SERVER: "https://bigpapaburt.com/data/" ,
     //POIDATA_SERVER: "https://example.wikitude.com/GetSamplePois/",
     // C.A. 10/23/2019
     POIDATA_SERVER: "https://cs.csub.edu/~caleman/SenSem/testdata",
@@ -28,7 +29,6 @@ var World = {
         User's latest known location, accessible via userLocation.latitude, userLocation.longitude,
          userLocation.altitude.
      */
-    //alert("test");
     userLocation: null,
 
     /* You may request new data from server periodically, however: in this sample data is only requested once. */
@@ -53,6 +53,9 @@ var World = {
 
     /* Called to inject new POI data. */
     loadPoisFromJsonData: function loadPoisFromJsonDataFn(poiData) {
+
+        /* Destroys all existing AR-Objects (markers & radar). */
+        AR.context.destroyAll();
 
         /* Show radar & set click-listener. */
         PoiRadar.show();
@@ -82,28 +85,7 @@ var World = {
                 "altitude": parseFloat(poiData[currentPlaceNr].altitude),
                 "title": poiData[currentPlaceNr].name,
                 "description": poiData[currentPlaceNr].description
-
-                /*
-                for (var i = 0; i < poiData[currentPlaceNr].description.length; i++) {
-                    "description": poiData[currentPlaceNr].description[i];
-                }
-
-
-
-               "description": poiData[currentPlaceNr].description[0],
-                 "description": poiData[currentPlaceNr].description[1]
-               //"description": poiData[currentPlaceNr].description.room1,
-               //"description": poiData[currentPlaceNr].description.room2
-               */
             };
-
-/*
-                var x = "";
-                for (var i = 0; singlePoi.poiData[currentPlaceNr].description.length; i++) {
-                    singlePoi.poiData[currentPlaceNr].description[] += singlePoi.poiData[currentPlaceNr].description[i]
-                }
-                /*
-                */
 
             World.markerList.push(new Marker(singlePoi));
         }
@@ -114,7 +96,7 @@ var World = {
         World.updateStatusMessage(currentPlaceNr + ' places loaded');
 
         /* Set distance slider to 100%. */
-        $("#panel-distance-range").val(2);
+        $("#panel-distance-range").val(50);
         $("#panel-distance-range").slider("refresh");
     },
 
@@ -187,7 +169,6 @@ var World = {
         /* Update panel values. */
         $("#poi-detail-title").html(marker.poiData.title);
         $("#poi-detail-description").html(marker.poiData.description);
-        //$("#poi-detail-altitude").html(marker.poiData.altitude);
 
 
         /*
@@ -206,10 +187,9 @@ var World = {
         var distanceToUserValue = (marker.distanceToUser > 999) ?
             ((marker.distanceToUser / 1000).toFixed(2) + " km") :
             (Math.round(marker.distanceToUser) + " m");
-        //Altitude has been added using the userLocation function. CA 11/3
         var altitudeYE = World.userLocation.altitude + "m";
+        $("#poi-detail-altitude").html(altitudeYE)
         $("#poi-detail-distance").html(distanceToUserValue);
-        $("#poi-detail-altitude").html(altitudeYE);
 
         /* Show panel. */
         $("#panel-poidetail").panel("open", 123);
@@ -249,7 +229,7 @@ var World = {
         /* Get current slider value (0..100);. */
         var slider_value = $("#panel-distance-range").val();
         /* Max range relative to the maximum distance of all visible places. */
-        var maxRangeMeters = Math.round(World.getMaxDistance() * (slider_value / 100));
+        var maxRangeMeters = Math.round(World.getMaxDistance() * (slider_value / 25));
 
         /* Range in meters including metric m/km. */
         var maxRangeValue = (maxRangeMeters > 999) ?
@@ -325,6 +305,25 @@ var World = {
 
             /* No places are visible, because the are not loaded yet. */
             World.updateStatusMessage('No places available yet', true);
+        }
+    },
+
+    /*
+        You may need to reload POI information because of user movements or manually for various reasons.
+        In this example POIs are reloaded when user presses the refresh button.
+        The button is defined in index.html and calls World.reloadPlaces() on click.
+    */
+
+    /* Reload places from content source. */
+    reloadPlaces: function reloadPlacesFn() {
+        if (!World.isRequestingData) {
+            if (World.userLocation) {
+                World.requestDataFromServer(World.userLocation.latitude, World.userLocation.longitude);
+            } else {
+                World.updateStatusMessage('Unknown user-location.', true);
+            }
+        } else {
+            World.updateStatusMessage('Already requesing places...', true);
         }
     },
 
