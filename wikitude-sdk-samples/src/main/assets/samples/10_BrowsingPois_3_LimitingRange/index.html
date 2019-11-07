@@ -39,6 +39,7 @@
     <!-- header of UI holding feature buttons -->
     <div id="header-status" data-role="header" data-position="fixed" data-theme="c">
         <a href="javascript: World.showRange();" data-icon="gear" data-inline="true" data-mini="true">Range</a>
+        <!--a href="javascript: World.reloadPlaces()" data-icon="refresh">Reload</a-->
         <h1></h1>
     </div>
 
@@ -59,8 +60,6 @@
         </div>
 
     </div>
-
-
     <!-- PANELS, ONLY VISIBLE ON DEMAND -->
 
     <!-- panel containing POI detail information -->
@@ -91,7 +90,6 @@
         </div>
     </div>
 
-
     <!-- range panel -->
     <div data-role="panel" id="panel-distance" data-position="left" data-display="overlay"
          style="background-color:#F0F0F0;" data-theme="c">
@@ -112,12 +110,12 @@
             <h4> Visible: <a id="panel-distance-places"></a></h4>
 
             <!-- default slider -->
-
-            <!-- This is where the range may be adjusted -CA 10/11-->
-            <input id="panel-distance-range" type="range" data-highlight="true" name="rangeSlider" min="0" max="3
-                   value="3" data-show-value="false" step="0.1" data-popup-enabled="false" readonly="readonly">
+            <!-- Changed the step to fine tune the range -->
+            <input id="panel-distance-range" type="range" data-highlight="true" name="rangeSlider" min="0" max="100"
+                   value="100" data-show-value="false" step="0.10" data-popup-enabled="false" readonly="readonly">
         </div>
     </div>
 </div>
 </body>
 </html>
+
