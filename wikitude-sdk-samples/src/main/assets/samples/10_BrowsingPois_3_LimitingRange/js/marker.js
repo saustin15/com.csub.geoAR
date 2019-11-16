@@ -5,7 +5,6 @@ function Marker(poiData) {
 
     this.poiData = poiData;
     this.isSelected = false;
-
     /*
         With AR.PropertyAnimations you are able to animate almost any property of ARchitect objects. This sample
         will animate the opacity of both background drawables so that one will fade out while the other one fades
@@ -18,6 +17,22 @@ function Marker(poiData) {
 
     /* Create the AR.GeoLocation from the poi data. */
     var markerLocation = new AR.GeoLocation(poiData.latitude, poiData.longitude, poiData.altitude);
+
+    var latitude1 = World.userLocation.latitude;
+    var latitude2 = poiData.latitude;
+    var longitude1 = World.userLocation.longitude;
+    var longitude2 = poiData.longitude;
+
+    //math to calculate distance between two objects using two sets of coordinates
+    //CA 11/7/19
+    var p = 0.017453292519943295;    // Math.PI / 180
+    var c = Math.cos;
+    var a = 0.5 - c((latitude2 - latitude1) * p)/2 +
+            c(latitude1 * p) * c(latitude2 * p) *
+            (1 - c((longitude2 - longitude1) * p))/2;
+
+    var d = 1000 * 12742 * Math.asin(Math.sqrt(a)); // 2 * R; R = 6371 km *1000 to convert back to meters to keep it consistent.
+
 
     /* Create an AR.ImageDrawable for the marker in idle state. */
     this.markerDrawableIdle = new AR.ImageDrawable(World.markerDrawableIdle, 2.5, {
@@ -52,7 +67,8 @@ function Marker(poiData) {
         }
     });
 
-    this.descriptionLabel = new AR.Label(poiData.description.trunc(15), 0.8, {
+    //here is where the value of the distance is being passed along. it is called 'd'.
+    this.distanceLabel = new AR.Label(d.toFixed(2) + " m", 0.8, {
         zOrder: 1,
         translate: {
             y: -0.55
@@ -109,7 +125,7 @@ function Marker(poiData) {
     */
     this.markerObject = new AR.GeoObject(markerLocation, {
         drawables: {
-            cam: [this.markerDrawableIdle, this.markerDrawableSelected, this.titleLabel, this.descriptionLabel],
+            cam: [this.markerDrawableIdle, this.markerDrawableSelected, this.titleLabel, this.distanceLabel],
             indicator: this.directionIndicatorDrawable,
             radar: this.radardrawables
         }
@@ -122,7 +138,6 @@ Marker.prototype.getOnClickTrigger = function(marker) {
 
     /*
         The setSelected and setDeselected functions are prototype Marker functions.
-
         Both functions perform the same steps but inverted, hence only one function (setSelected) is covered in
         detail. Three steps are necessary to select the marker. First the state will be set appropriately. Second
         the background drawable will be enabled and the standard background disabled. This is done by setting the
@@ -186,8 +201,8 @@ Marker.prototype.setSelected = function(marker) {
         var titleLabelResizeAnimationX = new AR.PropertyAnimation(
             marker.titleLabel, 'scale.x', null, 1.2, resizeAnimationDuration, easingCurve);
         /* Create AR.PropertyAnimation that animates the scaling of the description label to 1.2. */
-        var descriptionLabelResizeAnimationX = new AR.PropertyAnimation(
-            marker.descriptionLabel, 'scale.x', null, 1.2, resizeAnimationDuration, easingCurve);
+        var distanceLabelResizeAnimationX = new AR.PropertyAnimation(
+            marker.distanceLabel, 'scale.x', null, 1.2, resizeAnimationDuration, easingCurve);
 
         /* Create AR.PropertyAnimation that animates the scaling of the idle-state-drawable to 1.2. */
         var idleDrawableResizeAnimationY = new AR.PropertyAnimation(
@@ -199,8 +214,8 @@ Marker.prototype.setSelected = function(marker) {
         var titleLabelResizeAnimationY = new AR.PropertyAnimation(
             marker.titleLabel, 'scale.y', null, 1.2, resizeAnimationDuration, easingCurve);
         /* Create AR.PropertyAnimation that animates the scaling of the description label to 1.2. */
-        var descriptionLabelResizeAnimationY = new AR.PropertyAnimation(
-            marker.descriptionLabel, 'scale.y', null, 1.2, resizeAnimationDuration, easingCurve);
+        var distanceLabelResizeAnimationY = new AR.PropertyAnimation(
+            marker.distanceLabel, 'scale.y', null, 1.2, resizeAnimationDuration, easingCurve);
 
         /*
             There are two types of AR.AnimationGroups. Parallel animations are running at the same time,
@@ -212,11 +227,11 @@ Marker.prototype.setSelected = function(marker) {
             idleDrawableResizeAnimationX,
             selectedDrawableResizeAnimationX,
             titleLabelResizeAnimationX,
-            descriptionLabelResizeAnimationX,
+            distanceLabelResizeAnimationX,
             idleDrawableResizeAnimationY,
             selectedDrawableResizeAnimationY,
             titleLabelResizeAnimationY,
-            descriptionLabelResizeAnimationY
+            distanceLabelResizeAnimationY
         ]);
     }
 
@@ -256,8 +271,8 @@ Marker.prototype.setDeselected = function(marker) {
         var titleLabelResizeAnimationX = new AR.PropertyAnimation(
             marker.titleLabel, 'scale.x', null, 1.0, resizeAnimationDuration, easingCurve);
         /* Create AR.PropertyAnimation that animates the scaling of the description label to 1.0. */
-        var descriptionLabelResizeAnimationX = new AR.PropertyAnimation(
-            marker.descriptionLabel, 'scale.x', null, 1.0, resizeAnimationDuration, easingCurve);
+        var distanceLabelResizeAnimationX = new AR.PropertyAnimation(
+            marker.distanceLabel, 'scale.x', null, 1.0, resizeAnimationDuration, easingCurve);
         /* Create AR.PropertyAnimation that animates the scaling of the idle-state-drawable to 1.0. */
         var idleDrawableResizeAnimationY = new AR.PropertyAnimation(
             marker.markerDrawableIdle, 'scale.y', null, 1.0, resizeAnimationDuration, easingCurve);
@@ -268,8 +283,8 @@ Marker.prototype.setDeselected = function(marker) {
         var titleLabelResizeAnimationY = new AR.PropertyAnimation(
             marker.titleLabel, 'scale.y', null, 1.0, resizeAnimationDuration, easingCurve);
         /* Create AR.PropertyAnimation that animates the scaling of the description label to 1.0. */
-        var descriptionLabelResizeAnimationY = new AR.PropertyAnimation(
-            marker.descriptionLabel, 'scale.y', null, 1.0, resizeAnimationDuration, easingCurve);
+        var distanceLabelResizeAnimationY = new AR.PropertyAnimation(
+            marker.distanceLabel, 'scale.y', null, 1.0, resizeAnimationDuration, easingCurve);
 
         /*
             There are two types of AR.AnimationGroups. Parallel animations are running at the same time,
@@ -281,11 +296,11 @@ Marker.prototype.setDeselected = function(marker) {
             idleDrawableResizeAnimationX,
             selectedDrawableResizeAnimationX,
             titleLabelResizeAnimationX,
-            descriptionLabelResizeAnimationX,
+            distanceLabelResizeAnimationX,
             idleDrawableResizeAnimationY,
             selectedDrawableResizeAnimationY,
             titleLabelResizeAnimationY,
-            descriptionLabelResizeAnimationY
+            distanceLabelResizeAnimationY
         ]);
     }
 
