@@ -17,14 +17,13 @@ function Marker(poiData) {
 
     /* Create the AR.GeoLocation from the poi data. */
     var markerLocation = new AR.GeoLocation(poiData.latitude, poiData.longitude, poiData.altitude);
-
+   //math to calculate distance between two objects using two sets of coordinates
+    //CA 11/7/19
     var latitude1 = World.userLocation.latitude;
     var latitude2 = poiData.latitude;
     var longitude1 = World.userLocation.longitude;
     var longitude2 = poiData.longitude;
-
-    //math to calculate distance between two objects using two sets of coordinates
-    //CA 11/7/19
+    
     var p = 0.017453292519943295;    // Math.PI / 180
     var c = Math.cos;
     var a = 0.5 - c((latitude2 - latitude1) * p)/2 +
