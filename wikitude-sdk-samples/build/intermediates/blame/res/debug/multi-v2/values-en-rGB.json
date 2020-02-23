@@ -1,10 +1,27 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\aog61\\Desktop\\com.csub.geoAR\\wikitude-sdk-samples\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-en-rGB\\values-en-rGB.xml",
+            "outputFile": "C:\\Users\\Cesar\\Documents\\more testing on 11-6\\wikitude-sdk-samples\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-en-rGB\\values-en-rGB.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\aog61\\.gradle\\caches\\transforms-2\\files-2.1\\12959e3fec61bc857b01d21eb362523e\\support-compat-27.1.0\\res\\values-en-rGB\\values-en-rGB.xml",
+                    "source": "C:\\Users\\Cesar\\.gradle\\caches\\transforms-2\\files-2.1\\a142fb1d50ccf196efecc0487528badb\\core-1.1.0\\res\\values-en-rGB\\values.xml",
+                    "from": {
+                        "startLines": "4,5,6,7,8",
+                        "startColumns": "0,0,0,0,0",
+                        "startOffsets": "194,241,292,393,494",
+                        "endColumns": "46,50,100,100,62",
+                        "endOffsets": "240,291,392,493,556"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "105,156,211,316,421",
+                        "endColumns": "50,54,104,104,66",
+                        "endOffsets": "151,206,311,416,483"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Cesar\\.gradle\\caches\\transforms-2\\files-2.1\\12959e3fec61bc857b01d21eb362523e\\support-compat-27.1.0\\res\\values-en-rGB\\values-en-rGB.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -21,7 +38,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\aog61\\.gradle\\caches\\transforms-2\\files-2.1\\1ee1a41a4673e7b3823d88aff9031ff6\\appcompat-v7-27.1.0\\res\\values-en-rGB\\values-en-rGB.xml",
+                    "source": "C:\\Users\\Cesar\\.gradle\\caches\\transforms-2\\files-2.1\\1ee1a41a4673e7b3823d88aff9031ff6\\appcompat-v7-27.1.0\\res\\values-en-rGB\\values-en-rGB.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -35,23 +52,6 @@
                         "startOffsets": "488,592,692,800,884,984,1099,1176,1252,1334,1437,1541,1640,1745,1848,1952,2108,2208",
                         "endColumns": "103,99,107,83,99,114,76,75,81,102,103,98,104,102,103,155,99,81",
                         "endOffsets": "587,687,795,879,979,1094,1171,1247,1329,1432,1536,1635,1740,1843,1947,2103,2203,2285"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\aog61\\.gradle\\caches\\transforms-2\\files-2.1\\a142fb1d50ccf196efecc0487528badb\\core-1.1.0\\res\\values-en-rGB\\values.xml",
-                    "from": {
-                        "startLines": "4,5,6,7,8",
-                        "startColumns": "0,0,0,0,0",
-                        "startOffsets": "194,241,292,393,494",
-                        "endColumns": "46,50,100,100,62",
-                        "endOffsets": "240,291,392,493,556"
-                    },
-                    "to": {
-                        "startLines": "2,3,4,5,6",
-                        "startColumns": "4,4,4,4,4",
-                        "startOffsets": "105,156,211,316,421",
-                        "endColumns": "50,54,104,104,66",
-                        "endOffsets": "151,206,311,416,483"
                     }
                 }
             ]

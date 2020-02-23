@@ -39,6 +39,7 @@
     <!-- header of UI holding feature buttons -->
     <div id="header-status" data-role="header" data-position="fixed" data-theme="c">
         <a href="javascript: World.showRange();" data-icon="gear" data-inline="true" data-mini="true">Range</a>
+        <!--a href="javascript: World.reloadPlaces()" data-icon="refresh">Reload</a-->
         <h1></h1>
     </div>
 
@@ -59,8 +60,6 @@
         </div>
 
     </div>
-
-
     <!-- PANELS, ONLY VISIBLE ON DEMAND -->
 
     <!-- panel containing POI detail information -->
@@ -84,9 +83,12 @@
 
             <!-- distance -->
             <h4>Distance: <a id="poi-detail-distance"></a></h4>
+
+            <!-- This is for the altitude, this is being called within limitingrange.js CA 11/3-->
+            <!-- Altitude -->
+            <h4>Current Altitude: <a id="poi-detail-altitude"></a></h4>
         </div>
     </div>
-
 
     <!-- range panel -->
     <div data-role="panel" id="panel-distance" data-position="left" data-display="overlay"
@@ -108,11 +110,12 @@
             <h4> Visible: <a id="panel-distance-places"></a></h4>
 
             <!-- default slider -->
-            <!-- This is where the range may be adjusted -CA10/11-->
+            <!-- Changed the step to fine tune the range -->
             <input id="panel-distance-range" type="range" data-highlight="true" name="rangeSlider" min="0" max="100"
-                   value="100" data-show-value="false" step="5" data-popup-enabled="false" readonly="readonly">
+                   value="100" data-show-value="false" step="0.10" data-popup-enabled="false" readonly="readonly">
         </div>
     </div>
 </div>
 </body>
 </html>
+

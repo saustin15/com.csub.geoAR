@@ -4,6 +4,7 @@
  */
 var ServerInformation = {
     // POIDATA_SERVER: "https://www.cs.csub.edu/~rortiz/test/convertedData.json",
+    // POIDATA_SERVER: "https://bigpapaburt.com/data/" ,
     //POIDATA_SERVER: "https://example.wikitude.com/GetSamplePois/",
     // C.A. 10/23/2019
     POIDATA_SERVER: "https://cs.csub.edu/~caleman/SenSem/testdata",
@@ -11,6 +12,15 @@ var ServerInformation = {
     POIDATA_SERVER_ARG_LON: "lon",
     POIDATA_SERVER_ARG_NR_POIS: "nrPois"
 };
+
+//public LocationAssert hasAltitude(double altitude) {
+// isNotNull();
+// double actualAltitude = actual.getAltitude();
+// assertThat(actualAltitude) //
+//   .overridingErrorMessage("Expected altitude <%s> but was <%s>.", altitude, actualAltitude) //
+//   .isEqualTo(altitude);
+// return this;
+//}
 
 /* Implementation of AR-Experience (aka "World"). */
 var World = {
@@ -44,6 +54,9 @@ var World = {
     /* Called to inject new POI data. */
     loadPoisFromJsonData: function loadPoisFromJsonDataFn(poiData) {
 
+        /* Destroys all existing AR-Objects (markers & radar). */
+        AR.context.destroyAll();
+
         /* Show radar & set click-listener. */
         PoiRadar.show();
         $('#radarContainer').unbind('click');
@@ -72,28 +85,7 @@ var World = {
                 "altitude": parseFloat(poiData[currentPlaceNr].altitude),
                 "title": poiData[currentPlaceNr].name,
                 "description": poiData[currentPlaceNr].description
-
-                /*
-                for (var i = 0; i < poiData[currentPlaceNr].description.length; i++) {
-                    "description": poiData[currentPlaceNr].description[i];
-                }
-
-
-
-               "description": poiData[currentPlaceNr].description[0],
-                 "description": poiData[currentPlaceNr].description[1]
-               //"description": poiData[currentPlaceNr].description.room1,
-               //"description": poiData[currentPlaceNr].description.room2
-               */
             };
-
-/*
-                var x = "";
-                for (var i = 0; singlePoi.poiData[currentPlaceNr].description.length; i++) {
-                    singlePoi.poiData[currentPlaceNr].description[] += singlePoi.poiData[currentPlaceNr].description[i]
-                }
-                /*
-                */
 
             World.markerList.push(new Marker(singlePoi));
         }
@@ -104,7 +96,7 @@ var World = {
         World.updateStatusMessage(currentPlaceNr + ' places loaded');
 
         /* Set distance slider to 100%. */
-        $("#panel-distance-range").val(100);
+        $("#panel-distance-range").val(50);
         $("#panel-distance-range").slider("refresh");
     },
 
@@ -195,7 +187,8 @@ var World = {
         var distanceToUserValue = (marker.distanceToUser > 999) ?
             ((marker.distanceToUser / 1000).toFixed(2) + " km") :
             (Math.round(marker.distanceToUser) + " m");
-
+        var altitudeYE = World.userLocation.altitude + "m";
+        $("#poi-detail-altitude").html(altitudeYE)
         $("#poi-detail-distance").html(distanceToUserValue);
 
         /* Show panel. */
@@ -236,7 +229,7 @@ var World = {
         /* Get current slider value (0..100);. */
         var slider_value = $("#panel-distance-range").val();
         /* Max range relative to the maximum distance of all visible places. */
-        var maxRangeMeters = Math.round(World.getMaxDistance() * (slider_value / 100));
+        var maxRangeMeters = Math.round(World.getMaxDistance() * (slider_value / 25));
 
         /* Range in meters including metric m/km. */
         var maxRangeValue = (maxRangeMeters > 999) ?
@@ -312,6 +305,25 @@ var World = {
 
             /* No places are visible, because the are not loaded yet. */
             World.updateStatusMessage('No places available yet', true);
+        }
+    },
+
+    /*
+        You may need to reload POI information because of user movements or manually for various reasons.
+        In this example POIs are reloaded when user presses the refresh button.
+        The button is defined in index.html and calls World.reloadPlaces() on click.
+    */
+
+    /* Reload places from content source. */
+    reloadPlaces: function reloadPlacesFn() {
+        if (!World.isRequestingData) {
+            if (World.userLocation) {
+                World.requestDataFromServer(World.userLocation.latitude, World.userLocation.longitude);
+            } else {
+                World.updateStatusMessage('Unknown user-location.', true);
+            }
+        } else {
+            World.updateStatusMessage('Already requesing places...', true);
         }
     },
 

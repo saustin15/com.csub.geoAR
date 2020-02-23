@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\aog61\\Desktop\\com.csub.geoAR\\wikitude-sdk-samples\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-sk\\values-sk.xml",
+            "outputFile": "C:\\Users\\Cesar\\Documents\\more testing on 11-6\\wikitude-sdk-samples\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-sk\\values-sk.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\aog61\\.gradle\\caches\\transforms-2\\files-2.1\\a142fb1d50ccf196efecc0487528badb\\core-1.1.0\\res\\values-sk\\values.xml",
+                    "source": "C:\\Users\\Cesar\\.gradle\\caches\\transforms-2\\files-2.1\\a142fb1d50ccf196efecc0487528badb\\core-1.1.0\\res\\values-sk\\values.xml",
                     "from": {
                         "startLines": "4,5,6,7,8",
                         "startColumns": "0,0,0,0,0",
@@ -21,24 +21,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\aog61\\.gradle\\caches\\transforms-2\\files-2.1\\12959e3fec61bc857b01d21eb362523e\\support-compat-27.1.0\\res\\values-sk\\values-sk.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
-                    },
-                    "to": {
-                        "startLines": "25",
-                        "startColumns": "4",
-                        "startOffsets": "2383",
-                        "endColumns": "100",
-                        "endOffsets": "2479"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\aog61\\.gradle\\caches\\transforms-2\\files-2.1\\1ee1a41a4673e7b3823d88aff9031ff6\\appcompat-v7-27.1.0\\res\\values-sk\\values-sk.xml",
+                    "source": "C:\\Users\\Cesar\\.gradle\\caches\\transforms-2\\files-2.1\\1ee1a41a4673e7b3823d88aff9031ff6\\appcompat-v7-27.1.0\\res\\values-sk\\values-sk.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -52,6 +35,23 @@
                         "startOffsets": "516,623,723,834,920,1028,1146,1227,1308,1392,1497,1606,1705,1811,1922,2031,2197,2295",
                         "endColumns": "106,99,110,85,107,117,80,80,83,104,108,98,105,110,108,165,97,87",
                         "endOffsets": "618,718,829,915,1023,1141,1222,1303,1387,1492,1601,1700,1806,1917,2026,2192,2290,2378"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Cesar\\.gradle\\caches\\transforms-2\\files-2.1\\12959e3fec61bc857b01d21eb362523e\\support-compat-27.1.0\\res\\values-sk\\values-sk.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "25",
+                        "startColumns": "4",
+                        "startOffsets": "2383",
+                        "endColumns": "100",
+                        "endOffsets": "2479"
                     }
                 }
             ]

@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\aog61\\Desktop\\com.csub.geoAR\\wikitude-sdk-samples\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-vi\\values-vi.xml",
+            "outputFile": "C:\\Users\\Cesar\\Documents\\more testing on 11-6\\wikitude-sdk-samples\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-vi\\values-vi.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\aog61\\.gradle\\caches\\transforms-2\\files-2.1\\a142fb1d50ccf196efecc0487528badb\\core-1.1.0\\res\\values-vi\\values.xml",
+                    "source": "C:\\Users\\Cesar\\.gradle\\caches\\transforms-2\\files-2.1\\a142fb1d50ccf196efecc0487528badb\\core-1.1.0\\res\\values-vi\\values.xml",
                     "from": {
                         "startLines": "4,5,6,7,8",
                         "startColumns": "0,0,0,0,0",
@@ -21,24 +21,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\aog61\\.gradle\\caches\\transforms-2\\files-2.1\\12959e3fec61bc857b01d21eb362523e\\support-compat-27.1.0\\res\\values-vi\\values-vi.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
-                    },
-                    "to": {
-                        "startLines": "25",
-                        "startColumns": "4",
-                        "startOffsets": "2325",
-                        "endColumns": "100",
-                        "endOffsets": "2421"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\aog61\\.gradle\\caches\\transforms-2\\files-2.1\\1ee1a41a4673e7b3823d88aff9031ff6\\appcompat-v7-27.1.0\\res\\values-vi\\values-vi.xml",
+                    "source": "C:\\Users\\Cesar\\.gradle\\caches\\transforms-2\\files-2.1\\1ee1a41a4673e7b3823d88aff9031ff6\\appcompat-v7-27.1.0\\res\\values-vi\\values-vi.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -52,6 +35,23 @@
                         "startOffsets": "472,586,694,803,887,990,1109,1186,1263,1347,1451,1560,1661,1766,1880,1985,2142,2241",
                         "endColumns": "113,107,108,83,102,118,76,76,83,103,108,100,104,113,104,156,98,83",
                         "endOffsets": "581,689,798,882,985,1104,1181,1258,1342,1446,1555,1656,1761,1875,1980,2137,2236,2320"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Cesar\\.gradle\\caches\\transforms-2\\files-2.1\\12959e3fec61bc857b01d21eb362523e\\support-compat-27.1.0\\res\\values-vi\\values-vi.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "25",
+                        "startColumns": "4",
+                        "startOffsets": "2325",
+                        "endColumns": "100",
+                        "endOffsets": "2421"
                     }
                 }
             ]
