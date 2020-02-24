@@ -2,6 +2,45 @@
     Information about server communication. This sample webservice is provided by Wikitude and returns random dummy
     places near given location.
  */
+
+var buildingInfo = [
+    "Information for Rec Center",
+    "Information for WSL",
+    "Information for DDH",
+    "Information for Runner Cafe",
+    "Information for Student Union",
+    "Information for SRC",
+    "Information for SHE",
+    "Information for Icardo Center",
+    "Information for Student Health Services",
+    "Information for Physical Education",
+    "Information for Fab Lab",
+    "Information for Engineering Complex",
+    "Information for NSME",
+    "Information for BDC-A",
+    "Information for BDC-B",
+    "Information for BDC-C",
+    "Information for BDC-D",
+    "Information for BDC-E",
+    "Information for Science 1",
+    "Information for Science 2",
+    "Information for science 3",
+    "Information for Modular West",
+    "Information for Children Center",
+    "Information for Romberg Nursing Center",
+    "Information for Runner Express",
+    "Information for Education",
+    "Information for Administration East",
+    "Information for Administration West",
+    "Information for Classroom Building",
+    "Information for Humanities Office Building",
+    "Information for Visual Arts",
+    "Information for Dore Theatre",
+    "Information for Music Building",
+    "Information for Facilities",
+    "Information for Modular East 3",
+    "Information for Food Pantry"
+];
 var ServerInformation = {
     // POIDATA_SERVER: "https://www.cs.csub.edu/~rortiz/test/convertedData.json",
     // POIDATA_SERVER: "https://bigpapaburt.com/data/" ,
@@ -170,6 +209,17 @@ var World = {
         $("#poi-detail-title").html(marker.poiData.title);
         $("#poi-detail-description").html(marker.poiData.description);
 
+//        alert(marker.poiData.id);
+//      concat should contain the ID of the location. if we click
+//      on BDC-D, then concat = BDCD. How do I get that value to be searched for
+//      in buildingInfo?
+        var concat = marker.poiData.id;
+        alert(typeof(concat));
+        parseInt(concat);
+        alert(typeof(concat));
+//        if(concat)
+        $("#details").html(buildingInfo[concat]);
+
 
         /*
             It's ok for AR.Location subclass objects to return a distance of `undefined`. In case such a distance
@@ -188,6 +238,7 @@ var World = {
             ((marker.distanceToUser / 1000).toFixed(2) + " km") :
             (Math.round(marker.distanceToUser) + " m");
         var altitudeYE = World.userLocation.altitude + "m";
+
         $("#poi-detail-altitude").html(altitudeYE)
         $("#poi-detail-distance").html(distanceToUserValue);
 
