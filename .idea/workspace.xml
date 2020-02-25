@@ -6,14 +6,382 @@
     </shared>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0f963c0a-f7c6-4640-8180-8386baaad1fe" name="Default Changelist" comment="changes made to make details of building visible.">
+    <list default="true" id="0f963c0a-f7c6-4640-8180-8386baaad1fe" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/jarAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/build/.transforms/5a88e52c8d21875e02188fc2a201e7e8.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/build/.transforms/5a88e52c8d21875e02188fc2a201e7e8/full/classes.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/build/.transforms/5d5309a5ed8480dfe52f66a7125d5013.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/build/generated/source/buildConfig/androidTest/debug/com/wikitude/sampleplugins/test/BuildConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/build/intermediates/compile_only_not_namespaced_r_class_jar/debug/R.jar" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/build/intermediates/compile_only_not_namespaced_r_class_jar/debug/R.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/build/intermediates/compile_only_not_namespaced_r_class_jar/debug/generateDebugRFile/R.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/build/intermediates/incremental/debug-mergeJniLibs/merge-state" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/build/intermediates/incremental/packageDebugResources/compile-file-map.properties" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/build/intermediates/incremental/packageDebugResources/compile-file-map.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/wikitude/sampleplugins/BuildConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/build/intermediates/manifest_merge_blame_file/debugAndroidTest/manifest-merger-blame-debug-androidTest-report.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/build/intermediates/merged_manifests/debugAndroidTest/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/build/intermediates/merged_manifests/debugAndroidTest/output.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/build/intermediates/transforms/mergeJniLibs/debug/0/lib/arm64-v8a/libc++_shared.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/build/intermediates/transforms/mergeJniLibs/debug/0/lib/arm64-v8a/libopencv_calib3d.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/build/intermediates/transforms/mergeJniLibs/debug/0/lib/arm64-v8a/libopencv_core.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/build/intermediates/transforms/mergeJniLibs/debug/0/lib/arm64-v8a/libopencv_features2d.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/build/intermediates/transforms/mergeJniLibs/debug/0/lib/arm64-v8a/libopencv_imgproc.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/build/intermediates/transforms/mergeJniLibs/debug/0/lib/arm64-v8a/libopencv_objdetect.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/build/intermediates/transforms/mergeJniLibs/debug/0/lib/arm64-v8a/libtbb.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/build/intermediates/transforms/mergeJniLibs/debug/0/lib/arm64-v8a/libwikitudePlugins.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/build/intermediates/transforms/mergeJniLibs/debug/0/lib/armeabi-v7a/libc++_shared.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/build/intermediates/transforms/mergeJniLibs/debug/0/lib/armeabi-v7a/libopencv_calib3d.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/build/intermediates/transforms/mergeJniLibs/debug/0/lib/armeabi-v7a/libopencv_core.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/build/intermediates/transforms/mergeJniLibs/debug/0/lib/armeabi-v7a/libopencv_features2d.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/build/intermediates/transforms/mergeJniLibs/debug/0/lib/armeabi-v7a/libopencv_imgproc.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/build/intermediates/transforms/mergeJniLibs/debug/0/lib/armeabi-v7a/libopencv_objdetect.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/build/intermediates/transforms/mergeJniLibs/debug/0/lib/armeabi-v7a/libtbb.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/build/intermediates/transforms/mergeJniLibs/debug/0/lib/armeabi-v7a/libwikitudePlugins.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/build/intermediates/transforms/mergeJniLibs/debug/__content__.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wikitude-sdk-samples/build/generated/not_namespaced_r_class_sources/debug/processDebugResources/r/android/arch/core/R.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wikitude-sdk-samples/build/generated/not_namespaced_r_class_sources/debug/processDebugResources/r/android/arch/lifecycle/R.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wikitude-sdk-samples/build/generated/not_namespaced_r_class_sources/debug/processDebugResources/r/android/arch/lifecycle/livedata/core/R.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wikitude-sdk-samples/build/generated/not_namespaced_r_class_sources/debug/processDebugResources/r/android/arch/lifecycle/viewmodel/R.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wikitude-sdk-samples/build/generated/not_namespaced_r_class_sources/debug/processDebugResources/r/android/support/compat/R.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wikitude-sdk-samples/build/generated/not_namespaced_r_class_sources/debug/processDebugResources/r/android/support/constraint/R.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wikitude-sdk-samples/build/generated/not_namespaced_r_class_sources/debug/processDebugResources/r/android/support/coreui/R.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wikitude-sdk-samples/build/generated/not_namespaced_r_class_sources/debug/processDebugResources/r/android/support/coreutils/R.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wikitude-sdk-samples/build/generated/not_namespaced_r_class_sources/debug/processDebugResources/r/android/support/design/R.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wikitude-sdk-samples/build/generated/not_namespaced_r_class_sources/debug/processDebugResources/r/android/support/fragment/R.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wikitude-sdk-samples/build/generated/not_namespaced_r_class_sources/debug/processDebugResources/r/android/support/graphics/drawable/R.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wikitude-sdk-samples/build/generated/not_namespaced_r_class_sources/debug/processDebugResources/r/android/support/graphics/drawable/animated/R.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wikitude-sdk-samples/build/generated/not_namespaced_r_class_sources/debug/processDebugResources/r/android/support/mediacompat/R.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wikitude-sdk-samples/build/generated/not_namespaced_r_class_sources/debug/processDebugResources/r/android/support/transition/R.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wikitude-sdk-samples/build/generated/not_namespaced_r_class_sources/debug/processDebugResources/r/android/support/v4/R.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wikitude-sdk-samples/build/generated/not_namespaced_r_class_sources/debug/processDebugResources/r/android/support/v7/appcompat/R.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wikitude-sdk-samples/build/generated/not_namespaced_r_class_sources/debug/processDebugResources/r/android/support/v7/recyclerview/R.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wikitude-sdk-samples/build/generated/not_namespaced_r_class_sources/debug/processDebugResources/r/com/csub/geoAR/R.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wikitude-sdk-samples/build/generated/not_namespaced_r_class_sources/debug/processDebugResources/r/com/google/ar/core/R.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wikitude-sdk-samples/build/generated/not_namespaced_r_class_sources/debug/processDebugResources/r/com/wikitude/architectandlib/R.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wikitude-sdk-samples/build/generated/not_namespaced_r_class_sources/debug/processDebugResources/r/com/wikitude/sampleplugins/R.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wikitude-sdk-samples/build/generated/source/buildConfig/androidTest/debug/com/csub/geoAR/test/BuildConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wikitude-sdk-samples/build/intermediates/incremental/debug-mergeJniLibs/merge-state" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wikitude-sdk-samples/build/intermediates/incremental/debug-mergeJniLibs/zip-cache/5FfaTHRTsGtTUY4+bVjJPkelARY=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wikitude-sdk-samples/build/intermediates/incremental/debug-mergeJniLibs/zip-cache/7Xf4aj32PWChJs1KPsRWHBVgYmw=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wikitude-sdk-samples/build/intermediates/incremental/debug-mergeJniLibs/zip-cache/9vJbuKCV852BTL46+MUI9+iDRW0=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wikitude-sdk-samples/build/intermediates/incremental/debug-mergeJniLibs/zip-cache/AhsC_9yGF3KuS3VOgoEalSg3iAI=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wikitude-sdk-samples/build/intermediates/incremental/debug-mergeJniLibs/zip-cache/AtAUA_YZ4JFEN2LTN6xK2YJ_V6M=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wikitude-sdk-samples/build/intermediates/incremental/debug-mergeJniLibs/zip-cache/DSjXGIMN9C8BAdDHJy_Ji1qnc9o=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wikitude-sdk-samples/build/intermediates/incremental/debug-mergeJniLibs/zip-cache/GTOCcTVI18pTb_ycDD+HlNb5FpI=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wikitude-sdk-samples/build/intermediates/incremental/debug-mergeJniLibs/zip-cache/JNyHx9G_At1S98baDZdQrZNmQkA=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wikitude-sdk-samples/build/intermediates/incremental/debug-mergeJniLibs/zip-cache/LJd9HyX5b1BWekPt1rYcJK0YsrM=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wikitude-sdk-samples/build/intermediates/incremental/debug-mergeJniLibs/zip-cache/LclNEaFs141iYYj_q4o+BG46m1Q=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wikitude-sdk-samples/build/intermediates/incremental/debug-mergeJniLibs/zip-cache/ObYm+qdlSveTwffEvVXn3kR4t6Y=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wikitude-sdk-samples/build/intermediates/incremental/debug-mergeJniLibs/zip-cache/P9dQM+Kz+wFyOk0A9iL697yN2FI=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wikitude-sdk-samples/build/intermediates/incremental/debug-mergeJniLibs/zip-cache/QzsTU+nmfi97xittpviZaQqlpTs=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wikitude-sdk-samples/build/intermediates/incremental/debug-mergeJniLibs/zip-cache/SqYAmlhlEkLDGV0XlrV75CbhdWk=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wikitude-sdk-samples/build/intermediates/incremental/debug-mergeJniLibs/zip-cache/SzCDYs2LLRNlOO09iNwfxX3eYDo=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wikitude-sdk-samples/build/intermediates/incremental/debug-mergeJniLibs/zip-cache/TpN3PWp+pLbgonNpuUMbR+fTRoQ=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wikitude-sdk-samples/build/intermediates/incremental/debug-mergeJniLibs/zip-cache/aGvfrvOSKH2oU2Ks6yhYGtn3Sj0=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wikitude-sdk-samples/build/intermediates/incremental/debug-mergeJniLibs/zip-cache/bD5faT1PAlAc_ywG7aQglpfDkBM=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wikitude-sdk-samples/build/intermediates/incremental/debug-mergeJniLibs/zip-cache/ePyulB4UpyDqLeJDdtlo7KL1Bvc=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wikitude-sdk-samples/build/intermediates/incremental/debug-mergeJniLibs/zip-cache/gmxfBcubeV8wBG1ASoGZHzfz4Mc=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wikitude-sdk-samples/build/intermediates/incremental/debug-mergeJniLibs/zip-cache/h+MHKKyHC1O3xb685589N9oW344=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wikitude-sdk-samples/build/intermediates/incremental/debug-mergeJniLibs/zip-cache/jV_DHyFX9Ymz0u38YgkPnX+UXNA=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wikitude-sdk-samples/build/intermediates/incremental/debug-mergeJniLibs/zip-cache/tEgEkqQSLpZGCo7XXjfPcS1c_kg=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wikitude-sdk-samples/build/intermediates/incremental/debug-mergeJniLibs/zip-cache/u_OT2kiJZQNlHqCf7R4LSPk78w8=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wikitude-sdk-samples/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" beforeDir="false" afterPath="$PROJECT_DIR$/wikitude-sdk-samples/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wikitude-sdk-samples/build/intermediates/instant_run_merged_manifests/debug/output.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wikitude-sdk-samples/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/arch/core/R.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wikitude-sdk-samples/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/arch/lifecycle/R.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wikitude-sdk-samples/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/arch/lifecycle/livedata/core/R.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wikitude-sdk-samples/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/arch/lifecycle/viewmodel/R.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wikitude-sdk-samples/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/compat/R$attr.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wikitude-sdk-samples/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/compat/R$bool.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wikitude-sdk-samples/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/compat/R$color.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wikitude-sdk-samples/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/compat/R$dimen.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wikitude-sdk-samples/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/compat/R$drawable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wikitude-sdk-samples/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/compat/R$id.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wikitude-sdk-samples/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/compat/R$integer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wikitude-sdk-samples/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/compat/R$layout.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wikitude-sdk-samples/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/compat/R$string.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wikitude-sdk-samples/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/compat/R$style.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wikitude-sdk-samples/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/compat/R$styleable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wikitude-sdk-samples/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/compat/R.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wikitude-sdk-samples/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/constraint/R$attr.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wikitude-sdk-samples/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/constraint/R$id.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wikitude-sdk-samples/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/constraint/R$styleable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wikitude-sdk-samples/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/constraint/R.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wikitude-sdk-samples/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/coreui/R$attr.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wikitude-sdk-samples/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/coreui/R$bool.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wikitude-sdk-samples/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/coreui/R$color.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wikitude-sdk-samples/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/coreui/R$dimen.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wikitude-sdk-samples/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/coreui/R$drawable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wikitude-sdk-samples/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/coreui/R$id.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wikitude-sdk-samples/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/coreui/R$integer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wikitude-sdk-samples/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/coreui/R$layout.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wikitude-sdk-samples/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/coreui/R$string.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wikitude-sdk-samples/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/coreui/R$style.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wikitude-sdk-samples/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/coreui/R$styleable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wikitude-sdk-samples/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/coreui/R.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wikitude-sdk-samples/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/coreutils/R$attr.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wikitude-sdk-samples/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/coreutils/R$bool.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wikitude-sdk-samples/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/coreutils/R$color.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wikitude-sdk-samples/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/coreutils/R$dimen.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wikitude-sdk-samples/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/coreutils/R$drawable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wikitude-sdk-samples/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/coreutils/R$id.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wikitude-sdk-samples/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/coreutils/R$integer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wikitude-sdk-samples/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/coreutils/R$layout.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wikitude-sdk-samples/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/coreutils/R$string.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wikitude-sdk-samples/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/coreutils/R$style.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wikitude-sdk-samples/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/coreutils/R$styleable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wikitude-sdk-samples/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/coreutils/R.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wikitude-sdk-samples/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/design/R$anim.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wikitude-sdk-samples/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/design/R$animator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wikitude-sdk-samples/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/design/R$attr.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wikitude-sdk-samples/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/design/R$bool.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wikitude-sdk-samples/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/design/R$color.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wikitude-sdk-samples/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/design/R$dimen.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wikitude-sdk-samples/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/design/R$drawable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wikitude-sdk-samples/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/design/R$id.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wikitude-sdk-samples/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/design/R$integer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wikitude-sdk-samples/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/design/R$layout.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wikitude-sdk-samples/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/design/R$string.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wikitude-sdk-samples/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/design/R$style.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wikitude-sdk-samples/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/design/R$styleable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wikitude-sdk-samples/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/design/R.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wikitude-sdk-samples/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/fragment/R$attr.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wikitude-sdk-samples/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/fragment/R$bool.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wikitude-sdk-samples/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/fragment/R$color.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wikitude-sdk-samples/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/fragment/R$dimen.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wikitude-sdk-samples/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/fragment/R$drawable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wikitude-sdk-samples/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/fragment/R$id.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wikitude-sdk-samples/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/fragment/R$integer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wikitude-sdk-samples/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/fragment/R$layout.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wikitude-sdk-samples/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/fragment/R$string.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wikitude-sdk-samples/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/fragment/R$style.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wikitude-sdk-samples/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/fragment/R$styleable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wikitude-sdk-samples/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/fragment/R.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wikitude-sdk-samples/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/graphics/drawable/R$attr.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wikitude-sdk-samples/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/graphics/drawable/R$bool.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wikitude-sdk-samples/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/graphics/drawable/R$color.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wikitude-sdk-samples/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/graphics/drawable/R$dimen.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wikitude-sdk-samples/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/graphics/drawable/R$drawable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wikitude-sdk-samples/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/graphics/drawable/R$id.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wikitude-sdk-samples/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/graphics/drawable/R$integer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wikitude-sdk-samples/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/graphics/drawable/R$layout.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wikitude-sdk-samples/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/graphics/drawable/R$string.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wikitude-sdk-samples/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/graphics/drawable/R$style.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wikitude-sdk-samples/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/graphics/drawable/R$styleable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wikitude-sdk-samples/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/graphics/drawable/R.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wikitude-sdk-samples/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/graphics/drawable/animated/R$attr.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wikitude-sdk-samples/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/graphics/drawable/animated/R$bool.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wikitude-sdk-samples/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/graphics/drawable/animated/R$color.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wikitude-sdk-samples/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/graphics/drawable/animated/R$dimen.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wikitude-sdk-samples/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/graphics/drawable/animated/R$drawable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wikitude-sdk-samples/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/graphics/drawable/animated/R$id.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wikitude-sdk-samples/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/graphics/drawable/animated/R$integer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wikitude-sdk-samples/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/graphics/drawable/animated/R$layout.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wikitude-sdk-samples/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/graphics/drawable/animated/R$string.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wikitude-sdk-samples/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/graphics/drawable/animated/R$style.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wikitude-sdk-samples/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/graphics/drawable/animated/R$styleable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wikitude-sdk-samples/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/graphics/drawable/animated/R.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wikitude-sdk-samples/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/mediacompat/R$attr.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wikitude-sdk-samples/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/mediacompat/R$bool.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wikitude-sdk-samples/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/mediacompat/R$color.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wikitude-sdk-samples/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/mediacompat/R$dimen.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wikitude-sdk-samples/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/mediacompat/R$drawable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wikitude-sdk-samples/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/mediacompat/R$id.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wikitude-sdk-samples/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/mediacompat/R$integer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wikitude-sdk-samples/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/mediacompat/R$layout.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wikitude-sdk-samples/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/mediacompat/R$string.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wikitude-sdk-samples/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/mediacompat/R$style.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wikitude-sdk-samples/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/mediacompat/R$styleable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wikitude-sdk-samples/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/mediacompat/R.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wikitude-sdk-samples/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/transition/R$attr.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wikitude-sdk-samples/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/transition/R$bool.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wikitude-sdk-samples/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/transition/R$color.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wikitude-sdk-samples/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/transition/R$dimen.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wikitude-sdk-samples/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/transition/R$drawable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wikitude-sdk-samples/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/transition/R$id.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wikitude-sdk-samples/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/transition/R$integer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wikitude-sdk-samples/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/transition/R$layout.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wikitude-sdk-samples/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/transition/R$string.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wikitude-sdk-samples/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/transition/R$style.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wikitude-sdk-samples/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/transition/R$styleable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wikitude-sdk-samples/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/transition/R.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wikitude-sdk-samples/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/v4/R$attr.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wikitude-sdk-samples/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/v4/R$bool.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wikitude-sdk-samples/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/v4/R$color.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wikitude-sdk-samples/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/v4/R$dimen.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wikitude-sdk-samples/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/v4/R$drawable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wikitude-sdk-samples/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/v4/R$id.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wikitude-sdk-samples/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/v4/R$integer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wikitude-sdk-samples/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/v4/R$layout.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wikitude-sdk-samples/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/v4/R$string.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wikitude-sdk-samples/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/v4/R$style.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wikitude-sdk-samples/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/v4/R$styleable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wikitude-sdk-samples/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/v4/R.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wikitude-sdk-samples/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/v7/appcompat/R$anim.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wikitude-sdk-samples/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/v7/appcompat/R$attr.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wikitude-sdk-samples/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/v7/appcompat/R$bool.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wikitude-sdk-samples/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/v7/appcompat/R$color.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wikitude-sdk-samples/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/v7/appcompat/R$dimen.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wikitude-sdk-samples/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/v7/appcompat/R$drawable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wikitude-sdk-samples/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/v7/appcompat/R$id.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wikitude-sdk-samples/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/v7/appcompat/R$integer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wikitude-sdk-samples/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/v7/appcompat/R$layout.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wikitude-sdk-samples/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/v7/appcompat/R$string.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wikitude-sdk-samples/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/v7/appcompat/R$style.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wikitude-sdk-samples/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/v7/appcompat/R$styleable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wikitude-sdk-samples/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/v7/appcompat/R.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wikitude-sdk-samples/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/v7/recyclerview/R$attr.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wikitude-sdk-samples/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/v7/recyclerview/R$bool.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wikitude-sdk-samples/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/v7/recyclerview/R$color.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wikitude-sdk-samples/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/v7/recyclerview/R$dimen.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wikitude-sdk-samples/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/v7/recyclerview/R$drawable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wikitude-sdk-samples/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/v7/recyclerview/R$id.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wikitude-sdk-samples/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/v7/recyclerview/R$integer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wikitude-sdk-samples/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/v7/recyclerview/R$layout.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wikitude-sdk-samples/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/v7/recyclerview/R$string.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wikitude-sdk-samples/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/v7/recyclerview/R$style.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wikitude-sdk-samples/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/v7/recyclerview/R$styleable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wikitude-sdk-samples/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/v7/recyclerview/R.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wikitude-sdk-samples/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/csub/geoAR/BuildConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wikitude-sdk-samples/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/csub/geoAR/MainActivity$1$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wikitude-sdk-samples/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/csub/geoAR/MainActivity$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wikitude-sdk-samples/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/csub/geoAR/MainActivity.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wikitude-sdk-samples/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/csub/geoAR/R$anim.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wikitude-sdk-samples/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/csub/geoAR/R$animator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wikitude-sdk-samples/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/csub/geoAR/R$array.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wikitude-sdk-samples/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/csub/geoAR/R$attr.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wikitude-sdk-samples/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/csub/geoAR/R$bool.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wikitude-sdk-samples/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/csub/geoAR/R$color.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wikitude-sdk-samples/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/csub/geoAR/R$dimen.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wikitude-sdk-samples/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/csub/geoAR/R$drawable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wikitude-sdk-samples/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/csub/geoAR/R$id.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wikitude-sdk-samples/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/csub/geoAR/R$integer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wikitude-sdk-samples/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/csub/geoAR/R$layout.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wikitude-sdk-samples/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/csub/geoAR/R$menu.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wikitude-sdk-samples/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/csub/geoAR/R$mipmap.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wikitude-sdk-samples/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/csub/geoAR/R$raw.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wikitude-sdk-samples/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/csub/geoAR/R$string.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wikitude-sdk-samples/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/csub/geoAR/R$style.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wikitude-sdk-samples/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/csub/geoAR/R$styleable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wikitude-sdk-samples/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/csub/geoAR/R$xml.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wikitude-sdk-samples/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/csub/geoAR/R.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wikitude-sdk-samples/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/csub/geoAR/SimpleArActivity.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wikitude-sdk-samples/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/csub/geoAR/SimpleGeoArActivity$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wikitude-sdk-samples/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/csub/geoAR/SimpleGeoArActivity$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wikitude-sdk-samples/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/csub/geoAR/SimpleGeoArActivity.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wikitude-sdk-samples/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/csub/geoAR/advanced/ArchitectViewExtension.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wikitude-sdk-samples/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/csub/geoAR/advanced/ArchitectViewExtensionActivity.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wikitude-sdk-samples/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/csub/geoAR/advanced/GeoExtension$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wikitude-sdk-samples/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/csub/geoAR/advanced/GeoExtension$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wikitude-sdk-samples/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/csub/geoAR/advanced/GeoExtension.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wikitude-sdk-samples/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/csub/geoAR/advanced/NativePoiDetailExtension$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wikitude-sdk-samples/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/csub/geoAR/advanced/NativePoiDetailExtension.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wikitude-sdk-samples/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/csub/geoAR/advanced/PoiDataFromApplicationModelExtension.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wikitude-sdk-samples/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/csub/geoAR/advanced/SamplePoiDetailActivity.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wikitude-sdk-samples/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/csub/geoAR/advanced/SaveLoadInstantTargetExtension$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wikitude-sdk-samples/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/csub/geoAR/advanced/SaveLoadInstantTargetExtension.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wikitude-sdk-samples/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/csub/geoAR/advanced/ScreenshotSaverExtension$1$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wikitude-sdk-samples/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/csub/geoAR/advanced/ScreenshotSaverExtension$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wikitude-sdk-samples/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/csub/geoAR/advanced/ScreenshotSaverExtension$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wikitude-sdk-samples/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/csub/geoAR/advanced/ScreenshotSaverExtension$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wikitude-sdk-samples/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/csub/geoAR/advanced/ScreenshotSaverExtension$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wikitude-sdk-samples/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/csub/geoAR/advanced/ScreenshotSaverExtension.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wikitude-sdk-samples/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/csub/geoAR/advanced/plugins/FaceDetectionPluginExtension$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wikitude-sdk-samples/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/csub/geoAR/advanced/plugins/FaceDetectionPluginExtension.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wikitude-sdk-samples/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/csub/geoAR/advanced/plugins/MarkerTrackingPluginExtension$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wikitude-sdk-samples/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/csub/geoAR/advanced/plugins/MarkerTrackingPluginExtension.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wikitude-sdk-samples/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/csub/geoAR/advanced/plugins/QrPluginExtension$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wikitude-sdk-samples/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/csub/geoAR/advanced/plugins/QrPluginExtension.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wikitude-sdk-samples/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/csub/geoAR/advanced/plugins/input/Camera.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wikitude-sdk-samples/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/csub/geoAR/advanced/plugins/input/CameraCallback.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wikitude-sdk-samples/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/csub/geoAR/advanced/plugins/input/CustomCameraExtension$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wikitude-sdk-samples/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/csub/geoAR/advanced/plugins/input/CustomCameraExtension.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wikitude-sdk-samples/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/csub/geoAR/advanced/plugins/input/FrameInputPluginModule$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wikitude-sdk-samples/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/csub/geoAR/advanced/plugins/input/FrameInputPluginModule.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wikitude-sdk-samples/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/csub/geoAR/advanced/plugins/input/SimpleInputPluginExtension$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wikitude-sdk-samples/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/csub/geoAR/advanced/plugins/input/SimpleInputPluginExtension.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wikitude-sdk-samples/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/csub/geoAR/advanced/plugins/input/WikitudeCamera$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wikitude-sdk-samples/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/csub/geoAR/advanced/plugins/input/WikitudeCamera.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wikitude-sdk-samples/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/csub/geoAR/advanced/plugins/input/WikitudeCamera2$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wikitude-sdk-samples/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/csub/geoAR/advanced/plugins/input/WikitudeCamera2$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wikitude-sdk-samples/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/csub/geoAR/advanced/plugins/input/WikitudeCamera2$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wikitude-sdk-samples/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/csub/geoAR/advanced/plugins/input/WikitudeCamera2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wikitude-sdk-samples/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/csub/geoAR/fragments/SimpleArFragment.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wikitude-sdk-samples/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/csub/geoAR/fragments/SimpleGeoArFragment$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wikitude-sdk-samples/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/csub/geoAR/fragments/SimpleGeoArFragment$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wikitude-sdk-samples/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/csub/geoAR/fragments/SimpleGeoArFragment.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wikitude-sdk-samples/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/csub/geoAR/fragments/UrlLauncherActivity.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wikitude-sdk-samples/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/csub/geoAR/util/DefaultConfigs.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wikitude-sdk-samples/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/csub/geoAR/util/PermissionUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wikitude-sdk-samples/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/csub/geoAR/util/SampleCategory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wikitude-sdk-samples/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/csub/geoAR/util/SampleData$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wikitude-sdk-samples/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/csub/geoAR/util/SampleData$Builder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wikitude-sdk-samples/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/csub/geoAR/util/SampleData.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wikitude-sdk-samples/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/csub/geoAR/util/SampleJsonParser.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wikitude-sdk-samples/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/csub/geoAR/util/adapters/SamplesExpendableListAdapter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wikitude-sdk-samples/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/csub/geoAR/util/adapters/UrlLauncherStorageListAdapter$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wikitude-sdk-samples/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/csub/geoAR/util/adapters/UrlLauncherStorageListAdapter$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wikitude-sdk-samples/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/csub/geoAR/util/adapters/UrlLauncherStorageListAdapter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wikitude-sdk-samples/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/csub/geoAR/util/location/LocationProvider$ErrorCallback.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wikitude-sdk-samples/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/csub/geoAR/util/location/LocationProvider.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wikitude-sdk-samples/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/csub/geoAR/util/urllauncher/UrlLauncherSettingsActivity$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wikitude-sdk-samples/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/csub/geoAR/util/urllauncher/UrlLauncherSettingsActivity$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wikitude-sdk-samples/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/csub/geoAR/util/urllauncher/UrlLauncherSettingsActivity$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wikitude-sdk-samples/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/csub/geoAR/util/urllauncher/UrlLauncherSettingsActivity.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wikitude-sdk-samples/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/csub/geoAR/util/urllauncher/UrlLauncherStorageActivity$1$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wikitude-sdk-samples/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/csub/geoAR/util/urllauncher/UrlLauncherStorageActivity$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wikitude-sdk-samples/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/csub/geoAR/util/urllauncher/UrlLauncherStorageActivity.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wikitude-sdk-samples/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/google/ar/core/R$id.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wikitude-sdk-samples/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/google/ar/core/R$layout.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wikitude-sdk-samples/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/google/ar/core/R$string.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wikitude-sdk-samples/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/google/ar/core/R.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wikitude-sdk-samples/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/wikitude/architectandlib/R$id.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wikitude-sdk-samples/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/wikitude/architectandlib/R$layout.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wikitude-sdk-samples/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/wikitude/architectandlib/R$string.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wikitude-sdk-samples/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/wikitude/architectandlib/R.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wikitude-sdk-samples/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/wikitude/sampleplugins/R$id.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wikitude-sdk-samples/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/wikitude/sampleplugins/R$layout.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wikitude-sdk-samples/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/wikitude/sampleplugins/R$string.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wikitude-sdk-samples/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/wikitude/sampleplugins/R.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wikitude-sdk-samples/build/intermediates/merged_assets/debug/out/samples/10_BrowsingPois_3_LimitingRange/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/wikitude-sdk-samples/build/intermediates/merged_assets/debug/out/samples/10_BrowsingPois_3_LimitingRange/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wikitude-sdk-samples/build/intermediates/merged_java_res/debug/out.jar" beforeDir="false" afterPath="$PROJECT_DIR$/wikitude-sdk-samples/build/intermediates/merged_java_res/debug/out.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wikitude-sdk-samples/build/intermediates/merged_manifests/debugAndroidTest/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wikitude-sdk-samples/build/intermediates/merged_manifests/debugAndroidTest/output.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wikitude-sdk-samples/build/intermediates/transforms/mergeJavaRes/debug/0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wikitude-sdk-samples/build/intermediates/transforms/mergeJavaRes/debug/__content__.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wikitude-sdk-samples/build/intermediates/transforms/mergeJniLibs/debug/0/lib/arm64-v8a/libarchitect.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wikitude-sdk-samples/build/intermediates/transforms/mergeJniLibs/debug/0/lib/arm64-v8a/libarcore_sdk_c.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wikitude-sdk-samples/build/intermediates/transforms/mergeJniLibs/debug/0/lib/arm64-v8a/libarcore_sdk_jni.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wikitude-sdk-samples/build/intermediates/transforms/mergeJniLibs/debug/0/lib/arm64-v8a/libc++_shared.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wikitude-sdk-samples/build/intermediates/transforms/mergeJniLibs/debug/0/lib/arm64-v8a/libopencv_calib3d.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wikitude-sdk-samples/build/intermediates/transforms/mergeJniLibs/debug/0/lib/arm64-v8a/libopencv_core.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wikitude-sdk-samples/build/intermediates/transforms/mergeJniLibs/debug/0/lib/arm64-v8a/libopencv_features2d.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wikitude-sdk-samples/build/intermediates/transforms/mergeJniLibs/debug/0/lib/arm64-v8a/libopencv_imgproc.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wikitude-sdk-samples/build/intermediates/transforms/mergeJniLibs/debug/0/lib/arm64-v8a/libopencv_objdetect.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wikitude-sdk-samples/build/intermediates/transforms/mergeJniLibs/debug/0/lib/arm64-v8a/libtbb.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wikitude-sdk-samples/build/intermediates/transforms/mergeJniLibs/debug/0/lib/arm64-v8a/libwikitudePlugins.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wikitude-sdk-samples/build/intermediates/transforms/mergeJniLibs/debug/0/lib/armeabi-v7a/libarchitect.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wikitude-sdk-samples/build/intermediates/transforms/mergeJniLibs/debug/0/lib/armeabi-v7a/libarcore_sdk_c.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wikitude-sdk-samples/build/intermediates/transforms/mergeJniLibs/debug/0/lib/armeabi-v7a/libarcore_sdk_jni.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wikitude-sdk-samples/build/intermediates/transforms/mergeJniLibs/debug/0/lib/armeabi-v7a/libc++_shared.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wikitude-sdk-samples/build/intermediates/transforms/mergeJniLibs/debug/0/lib/armeabi-v7a/libopencv_calib3d.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wikitude-sdk-samples/build/intermediates/transforms/mergeJniLibs/debug/0/lib/armeabi-v7a/libopencv_core.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wikitude-sdk-samples/build/intermediates/transforms/mergeJniLibs/debug/0/lib/armeabi-v7a/libopencv_features2d.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wikitude-sdk-samples/build/intermediates/transforms/mergeJniLibs/debug/0/lib/armeabi-v7a/libopencv_imgproc.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wikitude-sdk-samples/build/intermediates/transforms/mergeJniLibs/debug/0/lib/armeabi-v7a/libopencv_objdetect.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wikitude-sdk-samples/build/intermediates/transforms/mergeJniLibs/debug/0/lib/armeabi-v7a/libtbb.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wikitude-sdk-samples/build/intermediates/transforms/mergeJniLibs/debug/0/lib/armeabi-v7a/libwikitudePlugins.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wikitude-sdk-samples/build/intermediates/transforms/mergeJniLibs/debug/0/lib/x86/libarcore_sdk_c.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wikitude-sdk-samples/build/intermediates/transforms/mergeJniLibs/debug/0/lib/x86/libarcore_sdk_jni.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wikitude-sdk-samples/build/intermediates/transforms/mergeJniLibs/debug/__content__.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/wikitude-sdk-samples/src/main/assets/samples/10_BrowsingPois_3_LimitingRange/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/wikitude-sdk-samples/src/main/assets/samples/10_BrowsingPois_3_LimitingRange/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wikitude-sdk-samples/src/main/assets/samples/10_BrowsingPois_3_LimitingRange/js/limitingrange.js" beforeDir="false" afterPath="$PROJECT_DIR$/wikitude-sdk-samples/src/main/assets/samples/10_BrowsingPois_3_LimitingRange/js/limitingrange.js" afterDir="false" />
     </list>
@@ -26,7 +394,7 @@
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="Galaxy_API_28" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="29b55ed4" />
   <component name="ExternalProjectsManager">
     <system id="GRADLE">
       <state>
@@ -39,25 +407,57 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/wikitude-sdk-samples/src/main/assets/samples/10_BrowsingPois_3_LimitingRange/js/limitingrange.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="38" column="37" lean-forward="true" selection-start-line="38" selection-start-column="37" selection-end-line="38" selection-end-column="37" />
+            <state relative-caret-position="340">
+              <caret line="45" column="25" lean-forward="true" selection-start-line="45" selection-start-column="25" selection-end-line="45" selection-end-column="25" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wikitude-sdk-samples/src/main/assets/samples/10_BrowsingPois_3_LimitingRange/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="167">
-              <caret line="115" column="55" selection-start-line="115" selection-start-column="55" selection-end-line="115" selection-end-column="55" />
+            <state relative-caret-position="357">
+              <caret line="116" column="114" selection-start-line="116" selection-start-column="114" selection-end-line="116" selection-end-column="114" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wikitude-sdk-samples/src/main/assets/samples/10_BrowsingPois_3_LimitingRange/jquery/jquery.mobile-1.3.2.min.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="11" column="88566" selection-start-line="11" selection-start-column="88566" selection-end-line="11" selection-end-column="88566" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wikitude-sdk-samples/src/main/assets/samples/10_BrowsingPois_3_LimitingRange/jquery/jquery-mobile-transparent-ui-overlay.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="19" selection-start-line="19" selection-end-line="19" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>content</find>
+      <find>ui b</find>
+      <find>panel-po</find>
+      <find>panel</find>
+      <find>panel-poi</find>
+      <find>ui-bar</find>
+      <find>singlePoi</find>
+      <find>altitude</find>
+      <find>currentMarker</find>
+      <find>alert</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -76,6 +476,7 @@
         <option value="$PROJECT_DIR$/wikitude-sdk-samples/src/main/assets/samples/samples.json" />
         <option value="$PROJECT_DIR$/wikitude-sdk-samples/src/main/res/menu/main_menu.xml" />
         <option value="$PROJECT_DIR$/wikitude-sdk-samples/src/main/res/values/strings.xml" />
+        <option value="$PROJECT_DIR$/wikitude-sdk-samples/src/main/assets/samples/10_BrowsingPois_3_LimitingRange/jquery/jquery.mobile-1.3.2.min.css" />
         <option value="$PROJECT_DIR$/wikitude-sdk-samples/src/main/assets/samples/10_BrowsingPois_3_LimitingRange/index.html" />
         <option value="$PROJECT_DIR$/wikitude-sdk-samples/src/main/assets/samples/10_BrowsingPois_3_LimitingRange/js/limitingrange.js" />
       </list>
@@ -89,9 +490,9 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
+    <option name="x" value="89" />
     <option name="y" value="-8" />
-    <option name="width" value="1318" />
+    <option name="width" value="1233" />
     <option name="height" value="784" />
   </component>
   <component name="ProjectView">
@@ -214,7 +615,14 @@
       <option name="project" value="LOCAL" />
       <updated>1582486230361</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="changes made to make details of building visible.">
+      <created>1582568194897</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1582568194897</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -230,16 +638,17 @@
       <window_info id="Designer" order="6" />
       <window_info id="Resources Explorer" order="7" weight="0.32985073" />
       <window_info id="Capture Tool" order="8" />
+      <window_info anchor="bottom" id="Find" weight="0.32615384" />
       <window_info anchor="bottom" id="Run" order="0" weight="0.3298731" />
       <window_info anchor="bottom" id="Logcat" order="1" />
       <window_info anchor="bottom" id="TODO" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" />
       <window_info anchor="bottom" id="Terminal" order="4" />
-      <window_info anchor="bottom" id="Event Log" order="5" sideWeight="0.50074625" side_tool="true" weight="0.27076924" />
-      <window_info anchor="bottom" id="Version Control" order="6" weight="0.3298731" />
+      <window_info anchor="bottom" id="Event Log" order="5" sideWeight="0.50076807" side_tool="true" weight="0.3276923" />
+      <window_info anchor="bottom" id="Version Control" order="6" sideWeight="0.49923196" weight="0.3276923" />
       <window_info anchor="bottom" id="Build" order="7" sideWeight="0.49925372" weight="0.33102652" />
       <window_info anchor="bottom" id="Android Profiler" order="8" />
-      <window_info active="true" anchor="bottom" id="Messages" order="9" visible="true" weight="0.32923076" />
+      <window_info anchor="bottom" id="Messages" order="9" sideWeight="0.49923196" weight="0.3276923" />
       <window_info anchor="right" id="Device File Explorer" order="0" side_tool="true" />
       <window_info anchor="right" id="Capture Analysis" order="1" />
       <window_info anchor="right" id="Gradle" order="2" />
@@ -247,6 +656,32 @@
       <window_info anchor="right" id="Palette&#9;" order="4" />
       <window_info anchor="right" id="Preview" order="5" weight="0.32910448" />
     </layout>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Pushing App with Andrew's site with URL" />
@@ -306,9 +741,6 @@
     <entry file="file://$PROJECT_DIR$/wikitude-sdk-samples/src/main/assets/samples/10_BrowsingPois_3_LimitingRange/jquery/images/icons-36-white.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/wikitude-sdk-samples/src/main/assets/samples/10_BrowsingPois_3_LimitingRange/jquery/jquery.mobile-1.3.2.min.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/wikitude-sdk-samples/src/main/java/com/csub/geoAR/SimpleGeoArActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
@@ -320,9 +752,6 @@
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/wikitude-sdk-samples/src/main/assets/samples/10_BrowsingPois_3_LimitingRange/jquery/jquery-1.9.1.min.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wikitude-sdk-samples/src/main/assets/samples/10_BrowsingPois_3_LimitingRange/jquery/jquery-mobile-transparent-ui-overlay.css">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/wikitude-sdk-samples/src/main/java/com/csub/geoAR/SimpleArActivity.java">
@@ -441,17 +870,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wikitude-sdk-samples/src/main/assets/samples/10_BrowsingPois_3_LimitingRange/js/limitingrange.js">
+    <entry file="file://$PROJECT_DIR$/wikitude-sdk-samples/src/main/assets/samples/10_BrowsingPois_3_LimitingRange/jquery/jquery-mobile-transparent-ui-overlay.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="38" column="37" lean-forward="true" selection-start-line="38" selection-start-column="37" selection-end-line="38" selection-end-column="37" />
+        <state relative-caret-position="135">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wikitude-sdk-samples/src/main/assets/samples/10_BrowsingPois_3_LimitingRange/jquery/jquery.mobile-1.3.2.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="88566" selection-start-line="11" selection-start-column="88566" selection-end-line="11" selection-end-column="88566" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wikitude-sdk-samples/src/main/assets/samples/10_BrowsingPois_3_LimitingRange/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="167">
-          <caret line="115" column="55" selection-start-line="115" selection-start-column="55" selection-end-line="115" selection-end-column="55" />
+        <state relative-caret-position="357">
+          <caret line="116" column="114" selection-start-line="116" selection-start-column="114" selection-end-line="116" selection-end-column="114" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wikitude-sdk-samples/src/main/assets/samples/10_BrowsingPois_3_LimitingRange/js/limitingrange.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="45" column="25" lean-forward="true" selection-start-line="45" selection-start-column="25" selection-end-line="45" selection-end-column="25" />
         </state>
       </provider>
     </entry>

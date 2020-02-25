@@ -39,7 +39,9 @@ var buildingInfo = [
     "Information for Music Building",
     "Information for Facilities",
     "Information for Modular East 3",
-    "Information for Food Pantry"
+    "Information for Food Pantry",
+    "Cesar's secret formula goes here.",
+    "Cesar's secret formula goes here."
 ];
 var ServerInformation = {
     // POIDATA_SERVER: "https://www.cs.csub.edu/~rortiz/test/convertedData.json",
@@ -121,7 +123,7 @@ var World = {
                 "id": poiData[currentPlaceNr].id,
                 "latitude": parseFloat(poiData[currentPlaceNr].latitude),
                 "longitude": parseFloat(poiData[currentPlaceNr].longitude),
-                "altitude": parseFloat(poiData[currentPlaceNr].altitude),
+                "altitude": 85, //parseFloat(poiData[currentPlaceNr].altitude),
                 "title": poiData[currentPlaceNr].name,
                 "description": poiData[currentPlaceNr].description
             };
@@ -209,14 +211,16 @@ var World = {
         $("#poi-detail-title").html(marker.poiData.title);
         $("#poi-detail-description").html(marker.poiData.description);
 
-//        alert(marker.poiData.id);
+        alert(parseFloat(marker.poiData.altitude));
 //      concat should contain the ID of the location. if we click
 //      on BDC-D, then concat = BDCD. How do I get that value to be searched for
 //      in buildingInfo?
+
         var concat = marker.poiData.id;
-        alert(typeof(concat));
-        parseInt(concat);
-        alert(typeof(concat));
+       // alert(typeof(concat));
+        //parseInt(concat);
+        //alert(typeof(concat));
+        //alert(World.poiData.altitude);
 //        if(concat)
         $("#details").html(buildingInfo[concat]);
 
@@ -243,7 +247,7 @@ var World = {
         $("#poi-detail-distance").html(distanceToUserValue);
 
         /* Show panel. */
-        $("#panel-poidetail").panel("open", 123);
+        $("#panel-poidetail").panel("open", 100);
 
         $(".ui-panel-dismiss").unbind("mousedown");
 
@@ -268,7 +272,7 @@ var World = {
         var maxDistanceMeters = World.markerList[0].distanceToUser;
 
         /*
-            Return maximum distance times some factor >1.0 so ther is some room left and small movements of user
+            Return maximum distance times some factor >1.0 so there is some room left and small movements of user
             don't cause places far away to disappear.
          */
         return maxDistanceMeters * 1.1;
@@ -351,7 +355,7 @@ var World = {
 
             /* Open panel. */
             $("#panel-distance").trigger("updatelayout");
-            $("#panel-distance").panel("open", 1234);
+            $("#panel-distance").panel("open", 123);
         } else {
 
             /* No places are visible, because the are not loaded yet. */
