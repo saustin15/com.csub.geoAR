@@ -43,10 +43,21 @@ var buildingInfo = [
     "Cesar's secret formula goes here.",
     "Cesar's secret formula goes here."
 ];
+
+var arr = [
+    "https://cs.csub.edu/~caleman/SenSem/Testing/img/sci3.jpg",
+    "https://cs.csub.edu/~caleman/SenSem/Testing/img/rnc.jpg",
+    "https://cs.csub.edu/~caleman/SenSem/Testing/img/sci2-sci1.jpg"
+];
+
+//var img = new Image();
+//var div = document.getElementById('x');
+
 var ServerInformation = {
     // POIDATA_SERVER: "https://www.cs.csub.edu/~rortiz/test/convertedData.json",
     // POIDATA_SERVER: "https://bigpapaburt.com/data/" ,
     //POIDATA_SERVER: "https://example.wikitude.com/GetSamplePois/",
+
     // C.A. 10/23/2019
     POIDATA_SERVER: "https://cs.csub.edu/~caleman/SenSem/testdata",
     POIDATA_SERVER_ARG_LAT: "lat",
@@ -65,6 +76,7 @@ var ServerInformation = {
 
 /* Implementation of AR-Experience (aka "World"). */
 var World = {
+
 
     /*
         User's latest known location, accessible via userLocation.latitude, userLocation.longitude,
@@ -123,7 +135,7 @@ var World = {
                 "id": poiData[currentPlaceNr].id,
                 "latitude": parseFloat(poiData[currentPlaceNr].latitude),
                 "longitude": parseFloat(poiData[currentPlaceNr].longitude),
-                "altitude": 85, //parseFloat(poiData[currentPlaceNr].altitude),
+                "altitude": 95, //parseFloat(poiData[currentPlaceNr].altitude),
                 "title": poiData[currentPlaceNr].name,
                 "description": poiData[currentPlaceNr].description
             };
@@ -211,18 +223,22 @@ var World = {
         $("#poi-detail-title").html(marker.poiData.title);
         $("#poi-detail-description").html(marker.poiData.description);
 
-        alert(parseFloat(marker.poiData.altitude));
+        //alert(parseFloat(marker.poiData.altitude));
 //      concat should contain the ID of the location. if we click
 //      on BDC-D, then concat = BDCD. How do I get that value to be searched for
 //      in buildingInfo?
 
         var concat = marker.poiData.id;
-       // alert(typeof(concat));
-        //parseInt(concat);
-        //alert(typeof(concat));
-        //alert(World.poiData.altitude);
-//        if(concat)
         $("#details").html(buildingInfo[concat]);
+
+
+        var img = new Image();
+        var div = document.getElementById('x');
+        img.onload = function() {
+            div.innerHTML = '<a href="https://cs.csub.edu/~caleman/SenSem/Testing/img/sci3.jpg"> <img src="'+img.src+'" /> </a>';
+        };
+        img.src = arr[0];
+
 
 
         /*
