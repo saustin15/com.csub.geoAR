@@ -135,6 +135,7 @@ var World = {
                 "id": poiData[currentPlaceNr].id,
                 "latitude": parseFloat(poiData[currentPlaceNr].latitude),
                 "longitude": parseFloat(poiData[currentPlaceNr].longitude),
+                //"altitude": (World.userLocation.altitude + 15), //parseFloat(poiData[currentPlaceNr].altitude),
                 "altitude": 95, //parseFloat(poiData[currentPlaceNr].altitude),
                 "title": poiData[currentPlaceNr].name,
                 "description": poiData[currentPlaceNr].description

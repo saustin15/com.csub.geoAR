@@ -6,18 +6,27 @@
     </shared>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0f963c0a-f7c6-4640-8180-8386baaad1fe" name="Default Changelist" comment="">
+    <list default="true" id="0f963c0a-f7c6-4640-8180-8386baaad1fe" name="Default Changelist" comment="Changed Menu Titles">
+      <change afterPath="$PROJECT_DIR$/02-29-2020 testing AR App.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/jarAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/caches/gradle_models.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/gradle_models.ser" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__artifacts_wikitude_sdk_unspecified_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__artifacts_wikitude_sdk_unspecified_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wikitude-sdk-samples/src/main/assets/samples/10_BrowsingPois_3_LimitingRange/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/wikitude-sdk-samples/src/main/assets/samples/10_BrowsingPois_3_LimitingRange/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/plugins.iml" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/plugins.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wikitude-sdk-samples/src/main/assets/samples/10_BrowsingPois_3_LimitingRange/js/limitingrange.js" beforeDir="false" afterPath="$PROJECT_DIR$/wikitude-sdk-samples/src/main/assets/samples/10_BrowsingPois_3_LimitingRange/js/limitingrange.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wikitude-sdk-samples/wikitude-sdk-samples.iml" beforeDir="false" afterPath="$PROJECT_DIR$/wikitude-sdk-samples/wikitude-sdk-samples.iml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -28,7 +37,12 @@
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="29b55ed4" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="Nexus_One_API_28" />
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
   <component name="ExternalProjectsManager">
     <system id="GRADLE">
       <state>
@@ -36,62 +50,45 @@
       </state>
     </system>
   </component>
-  <component name="FavoritesManager">
-    <favorites_list name="more testing on 11-6" />
-  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/wikitude-sdk-samples/src/main/assets/samples/10_BrowsingPois_3_LimitingRange/js/limitingrange.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="363">
-              <caret line="239" column="25" lean-forward="true" selection-start-line="239" selection-start-column="25" selection-end-line="239" selection-end-column="25" />
+            <state relative-caret-position="391">
+              <caret line="138" column="16" selection-start-line="138" selection-start-column="16" selection-end-line="138" selection-end-column="16" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wikitude-sdk-samples/src/main/assets/samples/10_BrowsingPois_3_LimitingRange/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
-              <caret line="93" column="107" selection-start-line="93" selection-start-column="107" selection-end-line="93" selection-end-column="107" />
+            <state relative-caret-position="17">
+              <caret line="79" selection-start-line="79" selection-end-line="79" />
+              <folding>
+                <element signature="e#4214#4247#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wikitude-sdk-samples/src/main/assets/samples/10_BrowsingPois_3_LimitingRange/jquery/jquery.mobile-1.3.2.min.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="88566" selection-start-line="11" selection-start-column="88566" selection-end-line="11" selection-end-column="88566" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wikitude-sdk-samples/src/main/assets/samples/10_BrowsingPois_3_LimitingRange/jquery/jquery-mobile-transparent-ui-overlay.css">
+        <entry file="file://$PROJECT_DIR$/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="323">
-              <caret line="19" selection-start-line="19" selection-end-line="19" />
+              <caret line="19" column="18" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
   </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>content</find>
-      <find>ui b</find>
-      <find>panel-po</find>
-      <find>panel</find>
-      <find>panel-poi</find>
-      <find>ui-bar</find>
-      <find>singlePoi</find>
-      <find>altitude</find>
-      <find>currentMarker</find>
-      <find>alert</find>
-    </findStrings>
+  <component name="GenerateSignedApkSettings">
+    <option name="KEY_STORE_PATH" value="C:\Users\Swirl\Desktop\29Feb2020-upate.jks" />
+    <option name="KEY_ALIAS" value="key0" />
+    <option name="REMEMBER_PASSWORDS" value="true" />
+    <option name="BUILD_TARGET_KEY" value="apk" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -110,24 +107,15 @@
         <option value="$PROJECT_DIR$/wikitude-sdk-samples/src/main/assets/samples/samples.json" />
         <option value="$PROJECT_DIR$/wikitude-sdk-samples/src/main/res/menu/main_menu.xml" />
         <option value="$PROJECT_DIR$/wikitude-sdk-samples/src/main/res/values/strings.xml" />
-        <option value="$PROJECT_DIR$/wikitude-sdk-samples/src/main/assets/samples/10_BrowsingPois_3_LimitingRange/jquery/jquery.mobile-1.3.2.min.css" />
         <option value="$PROJECT_DIR$/wikitude-sdk-samples/src/main/assets/samples/10_BrowsingPois_3_LimitingRange/js/limitingrange.js" />
-        <option value="$PROJECT_DIR$/wikitude-sdk-samples/src/main/assets/samples/10_BrowsingPois_3_LimitingRange/index.html" />
-      </list>
-    </option>
-  </component>
-  <component name="ProjectConfigurationFiles">
-    <option name="files">
-      <list>
-        <option value="$PROJECT_DIR$/more testing on 11-6.iml" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="237" />
-    <option name="y" value="-8" />
-    <option name="width" value="1153" />
-    <option name="height" value="784" />
+    <option name="x" value="276" />
+    <option name="y" value="20" />
+    <option name="width" value="1400" />
+    <option name="height" value="920" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -135,19 +123,18 @@
     </navigator>
     <panes>
       <pane id="AndroidView" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane" />
+      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="ExportApk.ApkPath" value="C:\Users\Swirl\Documents\02-29-2020 testing AR App\wikitude-sdk-samples" />
+    <property name="ExportApk.BuildVariants" value="release" />
+    <property name="ExportApk.SignV2" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="ToolWindowEvent Log.ShowToolbar" value="false" />
     <property name="android.sdk.path" value="$USER_HOME$/Downloads/platform-tools_r29.0.1-windows/platform-tools" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Project" />
-    <property name="project.structure.proportion" value="0.17" />
-    <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="AndroidSdkUpdater" />
   </component>
   <component name="RunDashboard">
@@ -242,38 +229,17 @@
       <option name="project" value="LOCAL" />
       <updated>1572107520382</updated>
     </task>
-    <task id="LOCAL-00002" summary="some unmade committs were made.">
-      <created>1582486230361</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1582486230361</updated>
-    </task>
-    <task id="LOCAL-00003" summary="changes made to make details of building visible.">
-      <created>1582568194897</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1582568194897</updated>
-    </task>
-    <task id="LOCAL-00004" summary="Made changes to altitude so that it is in the immediate field of view of the users.">
-      <created>1582604138813</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1582604138813</updated>
-    </task>
-    <option name="localTasksCounter" value="5" />
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1318" height="784" extended-state="6" />
+    <frame x="-8" y="-8" width="1616" height="886" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Captures" order="0" side_tool="true" weight="0.25" />
-      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.23502304" />
-      <window_info id="Structure" order="2" side_tool="true" weight="0.11367127" />
-      <window_info id="Favorites" order="3" side_tool="true" weight="0.32949308" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.21658097" />
+      <window_info id="Structure" order="2" side_tool="true" />
+      <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Build Variants" order="4" side_tool="true" />
       <window_info id="Image Layers" order="5" />
       <window_info id="Designer" order="6" />
@@ -284,12 +250,11 @@
       <window_info anchor="bottom" id="TODO" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" />
       <window_info anchor="bottom" id="Terminal" order="4" />
-      <window_info anchor="bottom" id="Event Log" order="5" sideWeight="0.50076807" side_tool="true" weight="0.3276923" />
-      <window_info anchor="bottom" id="Version Control" order="6" sideWeight="0.49923196" weight="0.3276923" />
-      <window_info anchor="bottom" id="Build" order="7" sideWeight="0.49925372" weight="0.46" />
-      <window_info anchor="bottom" id="Android Profiler" order="8" />
-      <window_info anchor="bottom" id="Messages" order="9" sideWeight="0.49923196" weight="0.3276923" />
-      <window_info anchor="bottom" id="Find" order="10" weight="0.32615384" />
+      <window_info anchor="bottom" id="Event Log" order="5" sideWeight="0.5012854" side_tool="true" weight="0.3173971" />
+      <window_info anchor="bottom" id="Version Control" order="6" weight="0.3298731" />
+      <window_info anchor="bottom" id="Build" order="7" sideWeight="0.49871466" weight="0.3173971" />
+      <window_info anchor="bottom" id="Android Profiler" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Messages" order="9" visible="true" weight="0.3298731" />
       <window_info anchor="right" id="Device File Explorer" order="0" side_tool="true" />
       <window_info anchor="right" id="Capture Analysis" order="1" />
       <window_info anchor="right" id="Gradle" order="2" />
@@ -298,63 +263,13 @@
       <window_info anchor="right" id="Preview" order="5" weight="0.32910448" />
     </layout>
   </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State>
-              <option name="RECENTLY_FILTERED_USER_GROUPS">
-                <collection />
-              </option>
-              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
-                <collection />
-              </option>
-              <option name="COLUMN_ORDER">
-                <list>
-                  <option value="0" />
-                  <option value="1" />
-                  <option value="2" />
-                  <option value="3" />
-                </list>
-              </option>
-            </State>
-          </value>
-        </entry>
-      </map>
-    </option>
-    <option name="RECENT_FILTERS">
-      <map>
-        <entry key="Branch">
-          <value>
-            <list />
-          </value>
-        </entry>
-        <entry key="User">
-          <value>
-            <list />
-          </value>
-        </entry>
-      </map>
-    </option>
-  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Pushing App with Andrew's site with URL" />
     <MESSAGE value="Pushing Changes to Custom URL and Menu" />
     <MESSAGE value="Changed Menu Titles" />
-    <MESSAGE value="some unmade committs were made." />
-    <MESSAGE value="changes made to make details of building visible." />
-    <MESSAGE value="Made changes to altitude so that it is in the immediate field of view of the users." />
-    <option name="LAST_COMMIT_MESSAGE" value="Made changes to altitude so that it is in the immediate field of view of the users." />
+    <option name="LAST_COMMIT_MESSAGE" value="Changed Menu Titles" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="5" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wikitude-sdk-samples/src/main/assets/samples/10_BrowsingPois_2_AddingRadar/index.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -397,6 +312,12 @@
     <entry file="file://$PROJECT_DIR$/wikitude-sdk-samples/src/main/assets/samples/10_BrowsingPois_3_LimitingRange/jquery/images/icons-36-white.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/wikitude-sdk-samples/src/main/assets/samples/10_BrowsingPois_3_LimitingRange/jquery/jquery.mobile-1.3.2.min.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wikitude-sdk-samples/src/main/assets/samples/10_BrowsingPois_3_LimitingRange/js/marker.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/wikitude-sdk-samples/src/main/java/com/csub/geoAR/SimpleGeoArActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
@@ -409,6 +330,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/wikitude-sdk-samples/src/main/assets/samples/10_BrowsingPois_3_LimitingRange/jquery/jquery-1.9.1.min.js">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wikitude-sdk-samples/src/main/assets/samples/10_BrowsingPois_3_LimitingRange/jquery/jquery-mobile-transparent-ui-overlay.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wikitude-sdk-samples/src/main/assets/samples/10_BrowsingPois_3_LimitingRange/js/radar.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="427">
+          <caret line="35" column="31" selection-start-line="35" selection-start-column="31" selection-end-line="35" selection-end-column="31" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wikitude-sdk-samples/src/main/java/com/csub/geoAR/SimpleArActivity.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -426,24 +357,24 @@
       <provider editor-type-id="android-manifest" />
     </entry>
     <entry file="file://$PROJECT_DIR$/wikitude-sdk-samples/src/main/res/layout/activity_url_launcher.xml">
-      <provider selected="true" editor-type-id="text-editor" />
       <provider editor-type-id="android-designer2" />
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/wikitude-sdk-samples/src/main/res/layout/activity_url_launcher_storage.xml">
-      <provider selected="true" editor-type-id="text-editor" />
       <provider editor-type-id="android-designer2" />
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/wikitude-sdk-samples/src/main/res/layout/expand_header.xml">
-      <provider selected="true" editor-type-id="text-editor" />
       <provider editor-type-id="android-designer2" />
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/wikitude-sdk-samples/src/main/res/layout/url_launcher_list_row.xml">
-      <provider selected="true" editor-type-id="text-editor" />
       <provider editor-type-id="android-designer2" />
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/wikitude-sdk-samples/src/main/res/layout/url_launcher_row_settings.xml">
-      <provider selected="true" editor-type-id="text-editor" />
       <provider editor-type-id="android-designer2" />
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/wikitude-sdk-samples/src/main/res/mipmap-anydpi-v26/ic_launcher.xml">
       <provider selected="true" editor-type-id="text-editor" />
@@ -451,8 +382,22 @@
     <entry file="file://$PROJECT_DIR$/wikitude-sdk-samples/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/wikitude-sdk-samples/src/main/res/mipmap-hdpi/ic_launcher.png">
-      <provider selected="true" editor-type-id="images" />
+    <entry file="file://$PROJECT_DIR$/wikitude-sdk-samples/src/main/res/menu/main_menu.xml">
+      <provider selected="true" editor-type-id="android-designer2" />
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
+          <folding>
+            <element signature="e#238#268#0" expanded="true" />
+            <element signature="e#457#490#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wikitude-sdk-samples/src/main/res/values/strings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-127" />
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wikitude-sdk-samples/src/main/java/com/csub/geoAR/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -463,12 +408,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/wikitude-sdk-samples/src/main/java/com/csub/geoAR/util/adapters/UrlLauncherStorageListAdapter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="177">
+        <state relative-caret-position="223">
           <caret line="54" column="24" selection-start-line="54" selection-start-column="24" selection-end-line="54" selection-end-column="24" />
           <folding>
             <element signature="e#2164#2165#0" expanded="true" />
-            <element signature="e#2296#2508#0" expanded="true" />
-            <element signature="e#2507#2508#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -482,6 +425,13 @@
           </folding>
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wikitude-sdk-samples/src/main/res/mipmap-hdpi/ic_launcher.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wikitude-sdk-samples/src/main/res/layout/activity_main.xml">
+      <provider selected="true" editor-type-id="android-designer2" />
+      <provider editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/wikitude-sdk-samples/src/main/java/com/csub/geoAR/util/urllauncher/UrlLauncherStorageActivity.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -497,60 +447,32 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wikitude-sdk-samples/src/main/res/layout/activity_main.xml">
-      <provider editor-type-id="text-editor" />
-      <provider selected="true" editor-type-id="android-designer2" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wikitude-sdk-samples/src/main/res/menu/main_menu.xml">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
-          <folding>
-            <element signature="e#238#268#0" expanded="true" />
-            <element signature="e#457#490#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="android-designer2" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wikitude-sdk-samples/src/main/res/values/strings.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wikitude-sdk-samples/src/main/assets/samples/10_BrowsingPois_3_LimitingRange/js/marker.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wikitude-sdk-samples/src/main/assets/samples/10_BrowsingPois_3_LimitingRange/js/radar.js">
+    <entry file="file://$PROJECT_DIR$/wikitude-sdk-samples/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="427">
-          <caret line="35" column="31" selection-start-line="35" selection-start-column="31" selection-end-line="35" selection-end-column="31" />
-        </state>
+        <state relative-caret-position="-36" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wikitude-sdk-samples/src/main/assets/samples/10_BrowsingPois_3_LimitingRange/jquery/jquery.mobile-1.3.2.min.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="88566" selection-start-line="11" selection-start-column="88566" selection-end-line="11" selection-end-column="88566" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wikitude-sdk-samples/src/main/assets/samples/10_BrowsingPois_3_LimitingRange/jquery/jquery-mobile-transparent-ui-overlay.css">
+    <entry file="file://$PROJECT_DIR$/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wikitude-sdk-samples/src/main/assets/samples/10_BrowsingPois_3_LimitingRange/js/limitingrange.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="363">
-          <caret line="239" column="25" lean-forward="true" selection-start-line="239" selection-start-column="25" selection-end-line="239" selection-end-column="25" />
+          <caret line="19" column="18" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wikitude-sdk-samples/src/main/assets/samples/10_BrowsingPois_3_LimitingRange/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="93" column="107" selection-start-line="93" selection-start-column="107" selection-end-line="93" selection-end-column="107" />
+        <state relative-caret-position="17">
+          <caret line="79" selection-start-line="79" selection-end-line="79" />
+          <folding>
+            <element signature="e#4214#4247#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wikitude-sdk-samples/src/main/assets/samples/10_BrowsingPois_3_LimitingRange/js/limitingrange.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="138" column="16" selection-start-line="138" selection-start-column="16" selection-end-line="138" selection-end-column="16" />
         </state>
       </provider>
     </entry>
