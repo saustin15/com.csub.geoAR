@@ -2,10 +2,62 @@
     Information about server communication. This sample webservice is provided by Wikitude and returns random dummy
     places near given location.
  */
+
+var buildingInfo = [
+    "Information for Rec Center",
+    "Information for WSL",
+    "Information for DDH",
+    "Information for Runner Cafe",
+    "Information for Student Union",
+    "Information for SRC",
+    "Information for SHE",
+    "Information for Icardo Center",
+    "Information for Student Health Services",
+    "Information for Physical Education",
+    "Information for Fab Lab",
+    "Information for Engineering Complex",
+    "Information for NSME",
+    "Information for BDC-A",
+    "Information for BDC-B",
+    "Information for BDC-C",
+    "Information for BDC-D",
+    "Information for BDC-E",
+    "Information for Science 1",
+    "Information for Science 2",
+    "Information for science 3",
+    "Information for Modular West",
+    "Information for Children Center",
+    "Information for Romberg Nursing Center",
+    "Information for Runner Express",
+    "Information for Education",
+    "Information for Administration East",
+    "Information for Administration West",
+    "Information for Classroom Building",
+    "Information for Humanities Office Building",
+    "Information for Visual Arts",
+    "Information for Dore Theatre",
+    "Information for Music Building",
+    "Information for Facilities",
+    "Information for Modular East 3",
+    "Information for Food Pantry",
+    "Cesar's secret formula goes here.",
+    "Cesar's secret formula goes here."
+];
+
+var arr = [
+    "https://cs.csub.edu/~caleman/SenSem/Testing/img/sci3.jpg",
+    "https://cs.csub.edu/~caleman/SenSem/Testing/img/rnc.jpg",
+    "https://cs.csub.edu/~caleman/SenSem/Testing/img/sci2-sci1.jpg"
+];
+
+//var img = new Image();
+//var div = document.getElementById('x');
+
 var ServerInformation = {
     // POIDATA_SERVER: "https://www.cs.csub.edu/~rortiz/test/convertedData.json",
     // POIDATA_SERVER: "https://bigpapaburt.com/data/" ,
     //POIDATA_SERVER: "https://example.wikitude.com/GetSamplePois/",
+
     // C.A. 10/23/2019
     POIDATA_SERVER: "https://cs.csub.edu/~caleman/SenSem/testdata",
     POIDATA_SERVER_ARG_LAT: "lat",
@@ -24,6 +76,7 @@ var ServerInformation = {
 
 /* Implementation of AR-Experience (aka "World"). */
 var World = {
+
 
     /*
         User's latest known location, accessible via userLocation.latitude, userLocation.longitude,
@@ -82,7 +135,8 @@ var World = {
                 "id": poiData[currentPlaceNr].id,
                 "latitude": parseFloat(poiData[currentPlaceNr].latitude),
                 "longitude": parseFloat(poiData[currentPlaceNr].longitude),
-                "altitude": parseFloat(poiData[currentPlaceNr].altitude),
+                //"altitude": (World.userLocation.altitude + 15), //parseFloat(poiData[currentPlaceNr].altitude),
+                "altitude": 95, //parseFloat(poiData[currentPlaceNr].altitude),
                 "title": poiData[currentPlaceNr].name,
                 "description": poiData[currentPlaceNr].description
             };
@@ -170,6 +224,23 @@ var World = {
         $("#poi-detail-title").html(marker.poiData.title);
         $("#poi-detail-description").html(marker.poiData.description);
 
+        //alert(parseFloat(marker.poiData.altitude));
+//      concat should contain the ID of the location. if we click
+//      on BDC-D, then concat = BDCD. How do I get that value to be searched for
+//      in buildingInfo?
+
+        var concat = marker.poiData.id;
+        $("#details").html(buildingInfo[concat]);
+
+
+        var img = new Image();
+        var div = document.getElementById('x');
+        img.onload = function() {
+            div.innerHTML = '<a href="https://cs.csub.edu/~caleman/SenSem/Testing/img/sci3.jpg"> <img src="'+img.src+'" /> </a>';
+        };
+        img.src = arr[0];
+
+
 
         /*
             It's ok for AR.Location subclass objects to return a distance of `undefined`. In case such a distance
@@ -188,11 +259,12 @@ var World = {
             ((marker.distanceToUser / 1000).toFixed(2) + " km") :
             (Math.round(marker.distanceToUser) + " m");
         var altitudeYE = World.userLocation.altitude + "m";
+
         $("#poi-detail-altitude").html(altitudeYE)
         $("#poi-detail-distance").html(distanceToUserValue);
 
         /* Show panel. */
-        $("#panel-poidetail").panel("open", 123);
+        $("#panel-poidetail").panel("open", 100);
 
         $(".ui-panel-dismiss").unbind("mousedown");
 
@@ -217,7 +289,7 @@ var World = {
         var maxDistanceMeters = World.markerList[0].distanceToUser;
 
         /*
-            Return maximum distance times some factor >1.0 so ther is some room left and small movements of user
+            Return maximum distance times some factor >1.0 so there is some room left and small movements of user
             don't cause places far away to disappear.
          */
         return maxDistanceMeters * 1.1;
@@ -300,7 +372,7 @@ var World = {
 
             /* Open panel. */
             $("#panel-distance").trigger("updatelayout");
-            $("#panel-distance").panel("open", 1234);
+            $("#panel-distance").panel("open", 123);
         } else {
 
             /* No places are visible, because the are not loaded yet. */

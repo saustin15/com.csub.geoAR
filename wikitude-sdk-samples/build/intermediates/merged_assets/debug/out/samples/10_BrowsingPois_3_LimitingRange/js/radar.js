@@ -33,7 +33,7 @@ var PoiRadar = {
         AR.radar.radius = 0.3;
         AR.radar.northIndicator.radius = 0.0;
 
-        AR.radar.enabled = true;
+        AR.radar.enabled = false;
         //set to true to get radar to show up
     },
 
