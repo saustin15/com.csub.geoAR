@@ -301,7 +301,7 @@ var World = {
         /* Get current slider value (0..100);. */
         var slider_value = $("#panel-distance-range").val();
         /* Max range relative to the maximum distance of all visible places. */
-        var maxRangeMeters = Math.round(World.getMaxDistance() * (slider_value / 25));
+        var maxRangeMeters = Math.round(World.getMaxDistance() * (slider_value / 100));
 
         /* Range in meters including metric m/km. */
         var maxRangeValue = (maxRangeMeters > 999) ?
