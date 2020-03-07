@@ -237,7 +237,9 @@ var World = {
         var div = document.getElementById('x');
         img.onload = function() {
             div.innerHTML = '<a href="https://cs.csub.edu/~caleman/SenSem/Testing/img/sci3.jpg"> <img src="'+img.src+'" /> </a>';
+            //div.innerHTML = '<a href="arr[concat]"> <img src="'+img.src+'" /> </a>';
         };
+        //img.src = arr[concat];
         img.src = arr[0];
 
 
