@@ -44,6 +44,8 @@ var buildingInfo = [
     "Cesar's secret formula goes here."
 ];
 
+
+
 var arr = [
     "https://cs.csub.edu/~caleman/SenSem/Testing/img/sci3.jpg",
     "https://cs.csub.edu/~caleman/SenSem/Testing/img/rnc.jpg",
@@ -440,6 +442,28 @@ var World = {
     }
 };
 
+// -- Search Function -- //
+var names = ["austin", "andrew", "cesar", "rodrigo"];
+function search(){
+  var searchedName = document.getElementById("search_input").value;
+  /* Uncomment this and Comment the other section to verify actual
+  var searchIndex = names.indexOf(searchedName);
+  if(searchIndex !== -1)
+    alert("Exists");
+    else
+    alert("Not Exists");
+*/
+
+    for (var i = 0; i < World.markerList.length; i++){
+      if (World.markerList[i].name === searchedName)
+        alert("Exists");
+      else
+        // Show all the locations, debug purposes
+        document.write('<h3>'+World.markerList[i].name+'</h3>');
+         //alert("Not Exists");
+    }
+}
+// -- //
 
 /* Forward locationChanges to custom function. */
 AR.context.onLocationChanged = World.locationChanged;

@@ -31,6 +31,9 @@
 
     <!-- radar component -->
     <script type="text/javascript" src="js/radar.js"></script>
+
+    <!-- Search Bar CSS -->
+    <!--<link rel="stylesheet" href="css/searchBar.css"/>-->
 </head>
 
 <body>
@@ -40,6 +43,10 @@
     <div id="header-status" data-role="header" data-position="fixed" data-theme="c">
         <a href="javascript: World.showRange();" data-icon="gear" data-inline="true" data-mini="true">Range</a>
         <!--a href="javascript: World.reloadPlaces()" data-icon="refresh">Reload</a-->
+        <span style="float:right;">
+            <input type="search" onsearch="search();" id="search_input" placeholder="Search Building">
+            <button onclick="search();">Search</button>
+        </span>
         <h1></h1>
     </div>
 
