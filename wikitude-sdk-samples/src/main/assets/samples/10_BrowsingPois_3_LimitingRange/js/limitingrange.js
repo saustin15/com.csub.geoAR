@@ -40,14 +40,49 @@ var buildingInfo = [
     "Information for Facilities",
     "Information for Modular East 3",
     "Information for Food Pantry",
-    "Cesar's secret formula goes here.",
     "Cesar's secret formula goes here."
 ];
 
+
+
 var arr = [
+    "https://cs.csub.edu/~caleman/SenSem/Testing/img/underConstruction.jpg",
+    "https://cs.csub.edu/~caleman/SenSem/Testing/img/underConstruction.jpg",
+    "https://cs.csub.edu/~caleman/SenSem/Testing/img/underConstruction.jpg",
+    "https://cs.csub.edu/~caleman/SenSem/Testing/img/underConstruction.jpg",
+    "https://cs.csub.edu/~caleman/SenSem/Testing/img/underConstruction.jpg",
+    "https://cs.csub.edu/~caleman/SenSem/Testing/img/underConstruction.jpg",
+    "https://cs.csub.edu/~caleman/SenSem/Testing/img/sci1.jpg",
+    "https://cs.csub.edu/~caleman/SenSem/Testing/img/underConstruction.jpg",
+    "https://cs.csub.edu/~caleman/SenSem/Testing/img/underConstruction.jpg",
+    "https://cs.csub.edu/~caleman/SenSem/Testing/img/underConstruction.jpg",
+    "https://cs.csub.edu/~caleman/SenSem/Testing/img/underConstruction.jpg",
+    "https://cs.csub.edu/~caleman/SenSem/Testing/img/underConstruction.jpg",
+    "https://cs.csub.edu/~caleman/SenSem/Testing/img/underConstruction.jpg",
+    "https://cs.csub.edu/~caleman/SenSem/Testing/img/underConstruction.jpg",
+    "https://cs.csub.edu/~caleman/SenSem/Testing/img/underConstruction.jpg",
+    "https://cs.csub.edu/~caleman/SenSem/Testing/img/underConstruction.jpg",
+    "https://cs.csub.edu/~caleman/SenSem/Testing/img/underConstruction.jpg",
+    "https://cs.csub.edu/~caleman/SenSem/Testing/img/underConstruction.jpg",
+    "https://cs.csub.edu/~caleman/SenSem/Testing/img/sci1.jpg",
+    "https://cs.csub.edu/~caleman/SenSem/Testing/img/sci2.jpg",
     "https://cs.csub.edu/~caleman/SenSem/Testing/img/sci3.jpg",
-    "https://cs.csub.edu/~caleman/SenSem/Testing/img/rnc.jpg",
-    "https://cs.csub.edu/~caleman/SenSem/Testing/img/sci2-sci1.jpg"
+    "https://cs.csub.edu/~caleman/SenSem/Testing/img/underConstruction.jpg",
+    "https://cs.csub.edu/~caleman/SenSem/Testing/img/underConstruction.jpg",
+    "https://cs.csub.edu/~caleman/SenSem/Testing/img/underConstruction.jpg",
+    "https://cs.csub.edu/~caleman/SenSem/Testing/img/underConstruction.jpg",
+    "https://cs.csub.edu/~caleman/SenSem/Testing/img/underConstruction.jpg",
+    "https://cs.csub.edu/~caleman/SenSem/Testing/img/underConstruction.jpg",
+    "https://cs.csub.edu/~caleman/SenSem/Testing/img/underConstruction.jpg",
+    "https://cs.csub.edu/~caleman/SenSem/Testing/img/underConstruction.jpg",
+    "https://cs.csub.edu/~caleman/SenSem/Testing/img/underConstruction.jpg",
+    "https://cs.csub.edu/~caleman/SenSem/Testing/img/underConstruction.jpg",
+    "https://cs.csub.edu/~caleman/SenSem/Testing/img/underConstruction.jpg",
+    "https://cs.csub.edu/~caleman/SenSem/Testing/img/underConstruction.jpg",
+    "https://cs.csub.edu/~caleman/SenSem/Testing/img/underConstruction.jpg",
+    "https://cs.csub.edu/~caleman/SenSem/Testing/img/underConstruction.jpg",
+    "https://cs.csub.edu/~caleman/SenSem/Testing/img/underConstruction.jpg",
+    "https://cs.csub.edu/~caleman/SenSem/Testing/img/underConstruction.jpg"
 ];
 
 //var img = new Image();
@@ -111,7 +146,7 @@ var World = {
         AR.context.destroyAll();
 
         /* Show radar & set click-listener. */
-        PoiRadar.show();
+        //PoiRadar.show();
         $('#radarContainer').unbind('click');
         $("#radarContainer").click(PoiRadar.clickedRadar);
 
@@ -216,31 +251,29 @@ var World = {
     onMarkerSelected: function onMarkerSelectedFn(marker) {
         World.currentMarker = marker;
 
-        /*
-            In this sample a POI detail panel appears when pressing a cam-marker (the blue box with title &
-            description), compare index.html in the sample's directory.
-        */
         /* Update panel values. */
         $("#poi-detail-title").html(marker.poiData.title);
         $("#poi-detail-description").html(marker.poiData.description);
 
-        //alert(parseFloat(marker.poiData.altitude));
-//      concat should contain the ID of the location. if we click
-//      on BDC-D, then concat = BDCD. How do I get that value to be searched for
-//      in buildingInfo?
 
         var concat = marker.poiData.id;
         $("#details").html(buildingInfo[concat]);
+
+        alert(concat);
+        var iterator = World.markerList.values();
+        for (let elements of iterator) {
+            console.log(elements);
+        }
 
 
         var img = new Image();
         var div = document.getElementById('x');
         img.onload = function() {
-            div.innerHTML = '<a href="https://cs.csub.edu/~caleman/SenSem/Testing/img/sci3.jpg"> <img src="'+img.src+'" /> </a>';
-            //div.innerHTML = '<a href="arr[concat]"> <img src="'+img.src+'" /> </a>';
+            //div.innerHTML = '<a href="https://cs.csub.edu/~caleman/SenSem/Testing/img/sci3.jpg"> <img src="'+img.src+'" /> </a>';
+            div.innerHTML = '<a href="'+arr[concat]+'"> <img src="'+img.src+'" /> Click Here for first floor rooms</a>';
         };
-        //img.src = arr[concat];
-        img.src = arr[0];
+        img.src = arr[concat];
+        //img.src = arr[0];
 
 
 
@@ -260,7 +293,7 @@ var World = {
         var distanceToUserValue = (marker.distanceToUser > 999) ?
             ((marker.distanceToUser / 1000).toFixed(2) + " km") :
             (Math.round(marker.distanceToUser) + " m");
-        var altitudeYE = World.userLocation.altitude + "m";
+        var altitudeYE = World.userLocation.altitude.toFixed(2) + "m";
 
         $("#poi-detail-altitude").html(altitudeYE)
         $("#poi-detail-distance").html(distanceToUserValue);
@@ -440,6 +473,33 @@ var World = {
     }
 };
 
+// -- Search Function -- //
+var names = ["austin", "andrew", "cesar", "rodrigo"];
+function search(){
+  var searchedName = document.getElementById("search_input").value;
+  /* Uncomment this and Comment the other section to verify actual
+  var searchIndex = names.indexOf(searchedName);
+  if(searchIndex !== -1)
+    alert("Exists");
+    else
+    alert("Not Exists");
+*/
+//  var searchIndex = World.markerList.indexOf(searchedName);
+//  if(searchIndex !== -1)
+//    alert("Exists");
+//  else
+//    alert("Not Exists");
+    for (var i = 0; i < World.markerList.length; i++){
+      if (World.markerList[i].title == searchedName)
+      //poiData[i].name
+        alert("Exists");
+      else
+        // Show all the locations, debug purposes
+        document.write('<h3>'+World.markerList[i].title+'</h3>');
+         //alert("Not Exists");
+    }
+}
+// -- //
 
 /* Forward locationChanges to custom function. */
 AR.context.onLocationChanged = World.locationChanged;

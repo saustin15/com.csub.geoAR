@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/02-29-2020 testing AR App.iml" filepath="$PROJECT_DIR$/02-29-2020 testing AR App.iml" />
       <module fileurl="file://$PROJECT_DIR$/more testing on 11-6.iml" filepath="$PROJECT_DIR$/more testing on 11-6.iml" />
       <module fileurl="file://$PROJECT_DIR$/plugins/plugins.iml" filepath="$PROJECT_DIR$/plugins/plugins.iml" />
       <module fileurl="file://$PROJECT_DIR$/wikitude-sdk/wikitude-sdk.iml" filepath="$PROJECT_DIR$/wikitude-sdk/wikitude-sdk.iml" />

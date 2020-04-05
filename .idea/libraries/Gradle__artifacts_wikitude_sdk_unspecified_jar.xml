@@ -1,11 +1,11 @@
 <component name="libraryTable">
   <library name="Gradle: artifacts:wikitude-sdk:unspecified@jar">
     <ANNOTATIONS>
-      <root url="jar://$PROJECT_DIR$/wikitude-sdk/build/.transforms/53497ca7349211b8b3adce38d83a57a3/wikitudesdk/annotations.zip!/" />
+      <root url="jar://$PROJECT_DIR$/wikitude-sdk/build/.transforms/9354f0c3cea4ce228052c57bf357a7f0/wikitudesdk/annotations.zip!/" />
     </ANNOTATIONS>
     <CLASSES>
-      <root url="jar://$PROJECT_DIR$/wikitude-sdk/build/.transforms/53497ca7349211b8b3adce38d83a57a3/wikitudesdk/jars/classes.jar!/" />
-      <root url="file://$PROJECT_DIR$/wikitude-sdk/build/.transforms/53497ca7349211b8b3adce38d83a57a3/wikitudesdk/res" />
+      <root url="jar://$PROJECT_DIR$/wikitude-sdk/build/.transforms/9354f0c3cea4ce228052c57bf357a7f0/wikitudesdk/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/wikitude-sdk/build/.transforms/9354f0c3cea4ce228052c57bf357a7f0/wikitudesdk/res" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />
