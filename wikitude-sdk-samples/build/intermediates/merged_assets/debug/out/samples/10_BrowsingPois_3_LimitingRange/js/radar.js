@@ -11,7 +11,7 @@ var PoiRadar = {
         AR.radar.container = document.getElementById("radarContainer");
 
         /* Set the back-ground image for the radar. */
-        AR.radar.background = new AR.ImageResource("assets/radar_bg.png", {
+        AR.radar.background = new AR.ImageResource("assets/transparent.png", {
             onError: World.onError
         });
 
@@ -19,7 +19,7 @@ var PoiRadar = {
             Set the north-indicator image for the radar (not necessary if you don't want to display a
             north-indicator).
          */
-        AR.radar.northIndicator.image = new AR.ImageResource("assets/radar_north.png", {
+        AR.radar.northIndicator.image = new AR.ImageResource("assets/csub_map_radar.png", {
             onError: World.onError
         });
 
@@ -30,10 +30,10 @@ var PoiRadar = {
         AR.radar.centerX = 0.5;
         AR.radar.centerY = 0.5;
 
-        AR.radar.radius = 0.3;
+        AR.radar.radius = 0.1;
         AR.radar.northIndicator.radius = 0.0;
 
-        AR.radar.enabled = false;
+        AR.radar.enabled = true;
         //set to true to get radar to show up
     },
 

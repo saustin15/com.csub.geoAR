@@ -2,16 +2,23 @@
 
 .radarContainer_left {
     position: absolute;
-    top: 35px;
-    left: 0px;
-    width: 100px;
-    height: 100px;
+    top: -5%;
+    left: -28%;
+/*    width: 450px;
+    height: 400px;
+*/
+    width: 50px;
+    height: 40px;
 }
 
 .radarContainer_right {
     position: absolute;
-    top: 35px;
-    right: 0px;
-    width: 100px;
-    height: 100px;
+    top: -5%;
+    right: 0%;
+    width: 50px;
+    height: 40px;
+/*
+    width: 450px;
+    height: 400px;
+*/
 }
